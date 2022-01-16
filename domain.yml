@@ -9,20 +9,13 @@ intents:
   - mood_unhappy
   - bot_challenge
 
-slots:
-  what_user_know:
-    type: unfeaturized
-
-entities:
-  - userReply
-
 responses:
   utter_greet:
   - text: "Hey! I am your assitant at Virtual Record Treasury."
   utter_What_I_can_do:
   - text: "I can help you to know more about Virtual Record Treasury project , History of Ireland's Public Record Office and the incidence which destroyed it."
   utter_ask_what_user_know:
-  -text : "So, Do you know anything about this ?"
+  - text : "So, Do you know anything about this ?"
   utter_ask_what_else:
   - text : "What else you want to know?"
   utter_cheer_up:
