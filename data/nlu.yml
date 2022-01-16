@@ -36,9 +36,13 @@ nlu:
     - yes
     - y
     - indeed
+    - of course I know
     - of course
-    - that sounds good
     - correct
+    - yup
+    - yes I know
+    - I know
+    - know
 
 - intent: deny
   examples: |
@@ -49,6 +53,8 @@ nlu:
     - don't like that
     - no way
     - not really
+    - nothing
+    - nop
 
 - intent: mood_great
   examples: |

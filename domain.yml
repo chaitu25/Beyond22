@@ -9,10 +9,22 @@ intents:
   - mood_unhappy
   - bot_challenge
 
+slots:
+  what_user_know:
+    type: unfeaturized
+
+entities:
+  - userReply
+
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
-
+  - text: "Hey! I am your assitant at Virtual Record Treasury."
+  utter_What_I_can_do:
+  - text: "I can help you to know more about Virtual Record Treasury project , History of Ireland's Public Record Office and the incidence which destroyed it."
+  utter_ask_what_user_know:
+  -text : "So, Do you know anything about this ?"
+  utter_ask_what_else:
+  - text : "What else you want to know?"
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
     image: "https://i.imgur.com/nGF1K8f.jpg"
@@ -21,13 +33,16 @@ responses:
   - text: "Did that help you?"
 
   utter_happy:
-  - text: "Great, carry on!"
+  - text: "Great!!! So do you have any other questions for me ?"
 
   utter_goodbye:
   - text: "Bye"
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
+
+  utter_info:
+  - text: "Virtual Record Treasury of Ireland is being created as part of project 'Beyond 2022'. 'Beyond 2022' is an all-island and international collaborative research project working to create a virtual reconstruction of the Public Record Office of Ireland, which was destroyed in the opening engagement of the Civil War on June 30th, 1922. You can get more information on [Google Website](https://www.google.com/).".
 
 session_config:
   session_expiration_time: 60

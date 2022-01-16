@@ -2,22 +2,24 @@ version: "2.0"
 
 stories:
 
-- story: happy path
+- story: User with pre-information
   steps:
   - intent: greet
   - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
-
-- story: sad path 1
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
+  - action : utter_What_I_can_do
+  - action : utter_ask_what_user_know
   - intent: affirm
   - action: utter_happy
+
+- story: User with no pre-information
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action : utter_What_I_can_do
+  - action : utter_ask_what_user_know
+  - intent: deny
+  - action: utter_info
+  - action: utter_ask_what_else
 
 - story: sad path 2
   steps:
