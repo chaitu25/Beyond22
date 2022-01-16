@@ -1,7 +1,6 @@
 version: "2.0"
 
 stories:
-
 - story: User with pre-information
   steps:
   - intent: greet
@@ -21,12 +20,12 @@ stories:
   - action: utter_info
   - action: utter_ask_what_else
 
-- story: sad path 2
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
+# - story: sad path 2
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: mood_unhappy
+#   - action: utter_cheer_up
+#   - action: utter_did_that_help
+#   - intent: deny
+#   - action: utter_goodbye
