@@ -35,7 +35,8 @@ responses:
   - text: "I am a bot, powered by Rasa."
 
   utter_info:
-  - text: "Virtual Record Treasury of Ireland is being created as part of project 'Beyond 2022'. 'Beyond 2022' is an all-island and international collaborative research project working to create a virtual reconstruction of the Public Record Office of Ireland, which was destroyed in the opening engagement of the Civil War on June 30th, 1922. You can get more information on [Google Website](https://www.google.com/)."
+  - text: "Virtual Record Treasury of Ireland is being created as part of project 'Beyond 2022'. 'Beyond 2022' is an all-island and international collaborative research project working to create a virtual reconstruction of the Public Record Office of Ireland, which was destroyed in the opening engagement of the Civil War on June 30th, 1922. You can get more information on [Google Website](https://www.google.com/). Here is the video you can watch to know more - "
+    video: "https://youtu.be/uXQOluXftZU"
 
 session_config:
   session_expiration_time: 60
