@@ -18,7 +18,6 @@ stories:
   - action : utter_ask_what_user_know
   - intent: deny
   - action: utter_info
-  - action: utter_ask_what_else
 
 # - story: sad path 2
 #   steps:
