@@ -43,6 +43,7 @@ nlu:
     - yes I know
     - I know
     - know
+    - I sure do
 
 - intent: deny
   examples: |
@@ -55,6 +56,8 @@ nlu:
     - not really
     - nothing
     - nop
+    - No idea
+    - Absolutely not
 
 - intent: mood_great
   examples: |
