@@ -24,12 +24,14 @@ if __name__ == "__main__":
     args = parser.parse_args()
     if args.fileName is None:
         filename = 'trainingData.txt'
-    filename = args.fileName
+    else:
+        filename = args.fileName
     with open(filename,'r') as file:
-        data = file.readline().split(' ')
-        intent = data[0]
-        utterance = data[1]
-        traingData[utterance] = intent
+        for line in file:
+            data = line.split(' ',1)
+            intent = data[0]
+            utterance = data[1]
+            traingData[utterance] = intent
     
     print('printing value from dict')
     for k,v in traingData.items():
