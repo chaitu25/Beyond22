@@ -1,19 +1,25 @@
 from rasa.shared.nlu.training_data.message import Message
 from rasa.shared.nlu.training_data.training_data import TrainingData
 # from rasa.shared.nlu.training_data.training_data
-from rasa.shared.nlu.training_data.formats.rasa_yaml import RasaYAMLReader
+from rasa.shared.nlu.training_data.formats.rasa_yaml import RasaYAMLReader,RasaYAMLWriter
 import os
 import argparse
 
-filepresent = RasaYAMLReader.is_yaml_nlu_file("../data/nlu.yml")
+filepresent = RasaYAMLReader.is_yaml_nlu_file("nlu.yml")
+complete_td = TrainingData()
 if(filepresent):
     print('Yes file is present')
     ymlReader = RasaYAMLReader()
-    data = TrainingData()
-    data = ymlReader.read("../data/nlu.yml")
+    #data = TrainingData()
+    complete_td = ymlReader.read("nlu.yml")
     print('printing file')
-    print(data.intents)
-
+    print(complete_td)
+    l = complete_td.intent_examples
+    for m in l:
+        print(m.get_full_intent())
+        temp = m.as_dict_nlu()
+        for k,v in temp.items():
+            print(k,v)
 
 
 if __name__ == "__main__":
@@ -30,9 +36,20 @@ if __name__ == "__main__":
         for line in file:
             data = line.split(' ',1)
             intent = data[0]
-            utterance = data[1]
-            traingData[utterance] = intent
+            print(intent)
+            utterance = data[1].strip("\n")
+            traingData.setdefault(intent,[]).append(utterance)
     
     print('printing value from dict')
+    all_messages = []
+    newData = TrainingData()
     for k,v in traingData.items():
         print(k,'->>>',v)
+        for ut in v:
+            all_messages.append(Message.build(text=ut,intent=k))
+    
+    complete_td = complete_td.merge(TrainingData(training_examples=all_messages))
+    writer = RasaYAMLWriter()
+    print('Writing data to nlu file')
+    writer.dump("nlu.yml",complete_td)
+    print('Writing data to nlu file complete')

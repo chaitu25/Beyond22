@@ -1,2 +1,805 @@
 archiveBuilt When was the Archive built?
+archiveBuilt when did the archive morph to what it was created?
+archiveBuilt when did you build the archives?
+archiveBuilt how was the archives created?
+archiveBuilt when was the archive created?
+archiveBuilt how was the archive built?
+archiveBuilt when was the archives built?
+archiveBuilt when was the archive built?
+archiveBuilt when was the archive public record office built?
+archiveBuilt when was the archive public record office building built?
+archiveBuilt when was the archive public record office building build?
+archiveBuilt when was the public records office built
+archiveBuilt when did the building work begin
+archiveBuilt when did the building work end
+archiveBuilt when did the building work finish
 archiveOwner Who owned the archive?
+archiveOwner who owns an archive?
+archiveOwner who is the owner of the archives?
+archiveOwner who is owning the archive?
+archiveOwner who owns the archives?
+archiveOwner who owned the archive?
+archiveOwner who is responsible for maintaining the public records?
+archiveOwner who kept records?
+archiveOwner who is the owner of all public records?
+archiveOwner who owned public records?
+archiveOwner who owns the public records?
+archiveOwner who owned the public records?
+archiveOwner how did the public record office work?
+archiveOwner who ran the public records office?
+archiveOwner who ran the public record office?
+archiveOwner who owns the public records office?
+archiveOwner who owned the public records office?
+archiveOwner who owned the public record office?
+virtualArchiveOwner who made this virtual archive?
+virtualArchiveOwner who is the creator of this?
+virtualArchiveOwner who created this?
+virtualArchiveOwner what created this?
+virtualArchiveOwner who created this virtual archive?
+virtualArchiveOwner who created this virtual treasury?
+virtualArchiveOwner who created this virtual record treasury?
+virtualArchiveOwner and who created the virtual record treasury?
+whereVirtualArchive where is the virtual record of the treasury?
+whereVirtualArchive where is the virtual treasury?
+whereVirtualArchive where's the virtual record treasury?
+whereVirtualArchive where is the virtual record treasury?
+whereVirtualArchive where's the virtual archive?
+whereVirtualArchive where is the virtual archive?
+whereVirtualArchive where is this virtual archive?
+whereVirtualArchive where is the digital treasury?
+oldestRecord how old is the oldest record at the archive?
+oldestRecord how old is the oldest record at the archives?
+oldestRecord how old is the oldest record at the building
+oldestRecord how old is the oldest record at the public record office
+oldestRecord how old is the oldest record at the public records office
+oldestRecord how old is the oldest record at the record office
+oldestRecord how old is the oldest record at the records office
+oldestRecord how old is the oldest record here
+oldestRecord how old is the oldest record here at the archive
+oldestRecord how old is the oldest record here at the archives
+oldestRecord how old is the oldest record here at the building
+oldestRecord how old is the oldest record here at the public record office
+oldestRecord how old is the oldest record here at the public records office
+whatSurviwed did anything remain after the explosion
+whatSurviwed did anything remain after the fire
+whatSurviwed did anything survive the explosion
+whatSurviwed did anything survive the fire
+whatSurviwed did much remain after the explosion
+whatSurviwed did much remain after the fire
+whatSurviwed did much survive the explosion
+whatSurviwed did much survive the fire
+whatSurviwed what did they find after the building was bombed
+whatSurviwed what did they find after the building was burned
+whatSurviwed what did they find after the building was destroyed
+whatSurviwed what did they find after the explosion
+whatSurviwed what did they find after the fire
+whatSurviwed what did they find when the building was bombed
+whatSurviwed what did they find when the building was burned
+whatSurviwed what did they find when the building was destroyed
+whatSurviwed what did they find when the explosion
+whatSurviwed what survived after the building was bombed
+whatSurviwed what survived after the building was burned
+whatSurviwed what survived after the building was destroyed
+whatSurviwed what survived after the explosion
+whatSurviwed what survived after the fire
+whatSurviwed what survived the explosion
+whatSurviwed what survived the fire
+whatSurviwed what survived when the building was bombed
+whatSurviwed what survived when the building was burned
+whatSurviwed what survived when the building was destroyed
+whatSurviwed what was left after the building was bombed
+whatSurviwed what was left after the building was burned
+whatSurviwed what was left after the building was destroyed
+whatSurviwed what was left after the explosion
+whatSurviwed what was left after the fire
+whatSurviwed what was left when the building was bombed
+whatSurviwed what was left when the building was burned
+whatSurviwed what was left when the building was destroyed
+whatSurviwed what was left when the explosion
+whatSurviwed what was left when the fire
+recordDetails what did they have
+recordDetails what did they have at the archive
+recordDetails what did they have at the archives
+recordDetails what did they have at the building
+recordDetails what did they have at the public record office
+recordDetails what did they have at the public records office
+recordDetails what did they have at the record office
+recordDetails what did they have at the records office
+recordDetails what did they have here
+recordDetails what did they have here at the archive
+recordDetails what did they have here at the archives
+recordDetails what did they have here at the building
+recordDetails what did they have here at the public record office
+recordDetails what did they have here at the public records office
+recordDetails what did they have here at the record office
+recordDetails what did they have here at the records office
+recordDetails what did they have here in the archive
+recordDetails what did they have here in the archives
+recordDetails what did they have here in the building
+recordDetails what did they have here in the public record office
+recordDetails what did they have here in the public records office
+recordDetails what did they have here in the record office
+recordDetails what did they have here in the records office
+recordDetails what did they have in the archive
+recordDetails what did they have in the archives
+recordDetails what did they have in the building
+recordDetails what did they have in the public record office
+recordDetails what did they have in the public records office
+recordDetails what did they have in the record office
+recordDetails what did they have in the records office
+recordDetails what did they keep
+recordDetails what did they keep at the archive
+recordDetails what did they keep at the archives
+recordDetails what did they keep at the building
+recordDetails what did they keep at the public record office
+recordDetails what did they keep at the public records office
+recordDetails what did they keep at the record office
+recordDetails what did they keep at the records office
+recordDetails what did they keep here
+recordDetails what did they keep here at the archive
+recordDetails what did they keep here at the archives
+recordDetails what did they keep here at the building
+recordDetails what did they keep here at the public record office
+recordDetails what did they keep here at the public records office
+recordDetails what did they keep here at the record office
+recordDetails what did they keep here at the records office
+recordDetails what did they keep here in the archive
+recordDetails what did they keep here in the archives
+recordDetails what did they keep here in the building
+recordDetails what did they keep here in the public record office
+recordDetails what did they keep here in the public records office
+recordDetails what did they keep here in the record office
+recordDetails what did they keep here in the records office
+recordDetails what did they keep in the archive
+recordDetails what did they keep in the archives
+recordDetails what did they keep in the building
+recordDetails what did they keep in the public record office
+recordDetails what did they keep in the public records office
+recordDetails what did they keep in the record office
+recordDetails what did they keep in the records office
+recordDetails what do they have at the archive
+recordDetails what do they have at the archives
+recordDetails what do they have at the building
+recordDetails what do they have at the public record office
+recordDetails what do they have at the public records office
+recordDetails what do they have at the record office
+recordDetails what do they have at the records office
+recordDetails what do they have here
+recordDetails what do they have here at the archive
+recordDetails what do they have here at the archives
+recordDetails what do they have here at the building
+archiveModel how do you build the three-dimensional model of the public record office
+archiveModel how do you build the three-dimensional model of the public records office
+archiveModel how do you build the three-dimensional model of the record office
+archiveModel how do you build the three-dimensional model of the records office
+archiveModel how do you build the three-dimensional model of this place
+archiveModel how do you create the 3d model
+archiveModel how do you create the 3d model of the archive
+archiveModel how do you create the 3d model of the archives
+archiveModel how do you create the 3d model of the building
+archiveModel how do you create the 3d model of the public record office
+archiveModel how do you create the 3d model of the public records office
+archiveModel how do you create the 3d model of the record office
+archiveModel how do you create the 3d model of the records office
+archiveModel how do you create the 3d model of this place
+archiveModel how do you create the model
+archiveModel how do you create the model of the archive
+archiveModel how do you create the model of the archives
+archiveModel how do you create the model of the building
+archiveModel how do you create the model of the public record office
+archiveModel how do you create the model of the public records office
+archiveModel how do you create the model of the record office
+archiveModel how do you create the model of the records office
+archiveModel how do you create the model of this place
+archiveModel how do you create the three dimensional model
+archiveModel how do you create the three dimensional model of the archive
+archiveModel how do you create the three dimensional model of the archives
+archiveModel how do you create the three dimensional model of the building
+archiveModel how do you create the three dimensional model of the public record office
+archiveModel how do you create the three dimensional model of the public records office
+archiveModel how do you create the three dimensional model of the record office
+archiveModel how do you create the three dimensional model of the records office
+archiveModel how do you create the three dimensional model of this place
+archiveModel how do you create the three-dimensional model
+archiveModel how do you create the three-dimensional model of the archive
+archiveModel how do you create the three-dimensional model of the archives
+archiveModel how do you create the three-dimensional model of the building
+archiveModel how do you create the three-dimensional model of the public record office
+archiveModel how do you create the three-dimensional model of the public records office
+archiveModel how do you create the three-dimensional model of the record office
+archiveModel how do you create the three-dimensional model of the records office
+archiveModel how do you create the three-dimensional model of this place
+archiveModel how do you make the 3d model
+archiveModel how do you make the 3d model of the archive
+archiveModel how do you make the 3d model of the archives
+archiveModel how do you make the 3d model of the building
+archiveModel how do you make the 3d model of the public record office
+archiveModel how do you make the 3d model of the public records office
+archiveModel how do you make the 3d model of the record office
+archiveModel how do you make the 3d model of the records office
+archiveModel how do you make the 3d model of this place
+archiveModel how do you make the model
+howManyRecords how many books were there here in the archive
+howManyRecords how many books were there here in the archives
+howManyRecords how many books were there here in the building
+howManyRecords how many books were there here in the public record office
+howManyRecords how many books were there here in the public records office
+howManyRecords how many books were there here in the record office
+howManyRecords how many books were there here in the records office
+howManyRecords how many books were there in the archive
+howManyRecords how many books were there in the archives
+howManyRecords how many books were there in the building
+howManyRecords how many books were there in the public record office
+howManyRecords how many books were there in the public records office
+howManyRecords how many books were there in the record office
+howManyRecords how many books were there in the records office
+howManyRecords how many documents were there in the public record office
+howManyRecords how many items were at the archive
+howManyRecords how many items were at the archives
+howManyRecords how many items were at the building
+howManyRecords how many items were at the public record office
+howManyRecords how many items were at the public records office
+howManyRecords how many items were at the record office
+howManyRecords how many items were at the records office
+howManyRecords how many items were here
+howManyRecords how many items were here at the archive
+howManyRecords how many items were here at the archives
+howManyRecords how many items were here at the building
+howManyRecords how many items were here at the public record office
+howManyRecords how many items were here at the public records office
+howManyRecords how many items were here at the record office
+howManyRecords how many items were here at the records office
+howManyRecords how many items were here in the archive
+howManyRecords how many items were here in the archives
+howManyRecords how many items were here in the building
+howManyRecords how many items were here in the public record office
+howManyRecords how many items were here in the public records office
+howManyRecords how many items were here in the record office
+howManyRecords how many items were here in the records office
+howManyRecords how many items were in the archive
+howManyRecords how many items were in the archives
+howManyRecords how many items were in the building
+howManyRecords how many items were in the public record office
+howManyRecords how many items were in the public records office
+howManyRecords how many items were in the record office
+howManyRecords how many items were in the records office
+howManyRecords how many items were there
+howManyRecords how many items were there at the archive
+howManyRecords how many items were there at the archives
+howManyRecords how many items were there at the building
+howManyRecords how many items were there at the public record office
+howManyRecords how many items were there at the public records office
+howManyRecords how many items were there at the record office
+howManyRecords how many items were there at the records office
+howManyRecords how many items were there here
+howManyRecords how many items were there here at the archive
+howManyRecords how many items were there here at the archives
+howManyRecords how many items were there here at the building
+whatCausedFire did fianna fail or fine gael blow up the record office
+whatCausedFire did the blueshirts burn the archive
+whatCausedFire how did the fire begin
+whatCausedFire how did the fire start
+whatCausedFire what caused the fire
+whatCausedFire what set the fire
+whatCausedFire what started the fire
+whatCausedFire who blew up the building
+whatCausedFire who burnt the archive
+whatCausedFire who caused the fire
+whatCausedFire who destroyed the four courts
+whatCausedFire who set the fire
+whatCausedFire who started the fire
+whoWorked how many people work at the archive
+whoWorked how many people work at the archives
+whoWorked how many people work at the building
+whoWorked how many people work at the public record office
+whoWorked how many people work at the public records office
+whoWorked how many people work at the record office
+whoWorked how many people work at the records office
+whoWorked how many people work here
+whoWorked how many people work here at the archive
+whoWorked how many people work here at the archives
+whoWorked how many people work here at the building
+whoWorked how many people work here at the public record office
+whoWorked how many people work here at the public records office
+whoWorked how many people work here at the record office
+whoWorked how many people work here at the records office
+whoWorked how many people work here in the archive
+whoWorked how many people work here in the archives
+whoWorked how many people work here in the building
+whoWorked how many people work here in the public record office
+whoWorked how many people work here in the public records office
+whoWorked how many people work here in the record office
+whoWorked how many people work here in the records office
+whoWorked how many people work in the archive
+whoWorked how many people work in the archives
+whoWorked how many people work in the building
+whoWorked how many people work in the public record office
+whoWorked how many people work in the public records office
+whoWorked how many people work in the record office
+whoWorked how many people work in the records office
+whoWorked how many people worked
+whoWorked how many people worked at the archive
+whoWorked how many people worked at the archives
+whoWorked how many people worked at the building
+whoWorked how many people worked at the public record office
+whoWorked how many people worked at the public records office
+whoWorked how many people worked at the record office
+whoWorked how many people worked at the records office
+whoWorked how many people worked here
+whoWorked how many people worked here at the archive
+whoWorked how many people worked here at the archives
+whoWorked how many people worked here at the building
+whoWorked how many people worked here at the public record office
+whoWorked how many people worked here at the public records office
+whoWorked how many people worked here at the record office
+whoWorked how many people worked here at the records office
+whoWorked how many people worked here in the archive
+whoWorked how many staff are at the archives
+whoWorked how many staff are at the building
+whoWorked how many staff are at the public record office
+whoWorked how many staff are at the public records office
+whoWorked how many staff are at the record office
+whoWorked how many staff are at the records office
+whoWorked how many staff are here
+whoWorked how many staff are here at the archive
+whoWorked how many staff are here at the archives
+whoWorked how many staff are here at the building
+whoWorked how many staff are here at the public record office
+whoWorked how many staff are here at the public records office
+whoWorked how many staff are here at the record office
+whoWorked how many staff are here at the records office
+whoWorked how many staff are here in the archive
+whoWorked how many staff are here in the archives
+whoWorked how many staff are here in the building
+whoWorked how many staff are here in the public record office
+whoWorked how many staff are here in the public records office
+whoWorked how many staff are here in the record office
+whoWorked how many staff are here in the records office
+whoWorked how many staff are in the archive
+whoWorked how many staff are in the archives
+whoUsedArchive did many people use the records
+whoUsedArchive who could come here
+whoUsedArchive who could come here into the archive
+whoUsedArchive who could come here into the archives
+whoUsedArchive who could come here into the building
+whoUsedArchive who could come here into the public record office
+whoUsedArchive who could come here into the public records office
+whoUsedArchive who could come here into the record office
+whoUsedArchive who could come here into the records office
+whoUsedArchive who could come here to the archive
+whoUsedArchive who could come here to the archives
+whoUsedArchive who could come here to the building
+whoUsedArchive who could come here to the public record office
+whoUsedArchive who could come here to the public records office
+whoUsedArchive who could come here to the record office
+whoUsedArchive who could come here to the records office
+whoUsedArchive who could come into the archive
+whoUsedArchive who could come into the archives
+whoUsedArchive who could come into the building
+whoUsedArchive who could come into the public record office
+whoUsedArchive who could come into the public records office
+whoUsedArchive who could come into the record office
+whoUsedArchive who could come into the records office
+whoUsedArchive who could come to the archive
+whoUsedArchive who could come to the archives
+whoUsedArchive who could come to the building
+whoUsedArchive who could come to the public record office
+whoUsedArchive who could come to the public records office
+whoUsedArchive who could come to the record office
+whoUsedArchive who could come to the records office
+whoUsedArchive who could look at the records
+whoUsedArchive who could read the records
+whoUsedArchive who could use the archive
+whoUsedArchive who could use the archives
+whoUsedArchive who could use the building
+whoUsedArchive who could use the public record office
+whoUsedArchive who could use the public records office
+whoUsedArchive who could use the record office
+whoUsedArchive who could use the records office
+whoUsedArchive who was allowed to come
+whoUsedArchive who was allowed to come here
+whoUsedArchive who was allowed to come here into the archive
+whoUsedArchive who was allowed to come here into the archives
+whoUsedArchive who was allowed to come here into the building
+whoUsedArchive who was allowed to come here into the public record office
+whoUsedArchive who was allowed to come here into the public records office
+whoUsedArchive who was allowed to come here into the record office
+whoUsedArchive who was allowed to come here into the records office
+whoUsedArchive who was allowed to come here to the archive
+whoUsedArchive who was allowed to come here to the archives
+whoUsedArchive who was allowed to come here to the building
+whoUsedArchive who was allowed to come here to the public record office
+whoUsedArchive who was allowed to come here to the public records office
+whoUsedArchive who was allowed to come here to the record office
+whoUsedArchive who was allowed to come here to the records office
+whoUsedArchive who was allowed to come into the archive
+whoUsedArchive who was allowed to come into the archives
+whoUsedArchive who was allowed to come into the building
+whoUsedArchive who was allowed to come into the public record office
+whoUsedArchive who was allowed to come into the public records office
+whoUsedArchive who was allowed to come into the record office
+whoUsedArchive who was allowed to come into the records office
+whoUsedArchive who was allowed to come to the archive
+whoUsedArchive who was allowed to come to the archives
+whoUsedArchive who was allowed to come to the building
+whoUsedArchive who was allowed to come to the public record office
+whoUsedArchive who was allowed to come to the public records office
+whoUsedArchive who was allowed to come to the record office
+whoUsedArchive who was allowed to come to the records office
+whoUsedArchive who was allowed to look at the records
+whoUsedArchive who was allowed to read the records
+whoUsedArchive who was allowed to use the archive
+whoUsedArchive who was allowed to use the archives
+whoUsedArchive who was allowed to use the building
+whoUsedArchive who was allowed to use the public record office
+whoUsedArchive who was allowed to use the public records office
+tellAboutBuilding can you please tell me about the archive
+tellAboutBuilding can you please tell me about the archives
+tellAboutBuilding can you please tell me about the building
+tellAboutBuilding can you please tell me about the public record office
+tellAboutBuilding can you please tell me about the public records office
+tellAboutBuilding can you please tell me about the record office
+tellAboutBuilding can you please tell me about the records office
+tellAboutBuilding can you please tell me more about the archive
+tellAboutBuilding can you please tell me more about the archives
+tellAboutBuilding can you please tell me more about the building
+tellAboutBuilding can you please tell me more about the public record office
+tellAboutBuilding can you please tell me more about the public records office
+tellAboutBuilding can you please tell me more about the record office
+tellAboutBuilding can you please tell me more about the records office
+tellAboutBuilding can you tell me about the archive
+tellAboutBuilding can you tell me about the building
+tellAboutBuilding can you tell me about the public record office
+tellAboutBuilding can you tell me about the public records office
+tellAboutBuilding can you tell me about the record office
+tellAboutBuilding can you tell me about the records office
+tellAboutBuilding can you tell me more about the archive
+tellAboutBuilding can you tell me more about the archives
+tellAboutBuilding can you tell me more about the building
+tellAboutBuilding can you tell me more about the public record office
+tellAboutBuilding can you tell me more about the public records office
+tellAboutBuilding can you tell me more about the record office
+tellAboutBuilding can you tell me more about the records office
+tellAboutBuilding please tell me about the archive
+tellAboutBuilding please tell me about the archives
+tellAboutBuilding please tell me about the building
+tellAboutBuilding please tell me about the public record office
+tellAboutBuilding please tell me about the public records office
+tellAboutBuilding please tell me about the record office
+tellAboutBuilding please tell me about the records office
+tellAboutBuilding please tell me more about the archive
+tellAboutBuilding please tell me more about the archives
+tellAboutBuilding please tell me more about the building
+tellAboutBuilding please tell me more about the public record office
+tellAboutBuilding please tell me more about the public records office
+tellAboutBuilding please tell me more about the record office
+tellAboutBuilding please tell me more about the records office
+tellAboutBuilding tell me about the archive
+tellAboutBuilding tell me about the archives
+tellAboutBuilding tell me about the building
+tellAboutBuilding tell me about the public record office
+tellAboutBuilding tell me about the public records office
+tellAboutBuilding tell me about the record office
+tellAboutBuilding tell me about the records office
+tellAboutBuilding tell me more about the archive
+tellAboutBuilding tell me more about the archives
+tellAboutBuilding tell me more about the building
+tellAboutBuilding tell me more about the public record office
+tellAboutBuilding tell me more about the public records office
+tellAboutBuilding tell me more about the record office
+tellAboutBuilding tell me more about the records office
+whyArchive why do we have an archive
+whyArchive why do we have archives
+whyArchive why do we need an archive
+whyArchive why do we need archives
+whyArchive why is there an archive
+whyArchive why is there archives
+whyArchive why is there the archives
+whyArchive why was there a public record office
+whyArchive why was there an archive
+whyArchive why was there archives
+whyArchive why was there the archives
+whyArchive why were there an archive
+whyArchive why were there archives
+whyArchive why were there the archives
+valuableItem what is the most valuable item here at the public record office
+valuableItem what is the most valuable item here at the public records office
+valuableItem what is the most valuable item here at the record office
+valuableItem what is the most valuable item here at the records office
+valuableItem what is the most valuable item here in the archive
+valuableItem what is the most valuable item at the record office
+valuableItem what is the most valuable item at the records office
+valuableItem what is the most valuable item here
+valuableItem what is the most valuable item here at the archive
+valuableItem what is the most valuable item here at the archives
+valuableItem what is the most valuable item here at the building
+valuableItem what is the most valuable item here at the collection
+aboutArchitect who designed the archives
+aboutArchitect who designed the building
+aboutArchitect who designed the public record office
+aboutArchitect who designed the public records office
+aboutArchitect who designed the record office
+aboutArchitect who designed the records office
+aboutArchitect who was the architect
+aboutArchitect who was the architects
+aboutArchitect who were the architects
+whereRecordOffice where is the record office
+whereRecordOffice where is the record office in
+whereRecordOffice where is the record office located
+whereRecordOffice where is the record office located in
+whereRecordOffice where is the records office
+whereRecordOffice where is the records office in
+whereRecordOffice where is the records office located
+whereRecordOffice where is the records office located in
+whereRecordOffice where was the archive
+whereRecordOffice where was the archive in
+whereRecordOffice where was the archive located
+whereRecordOffice where was the archive located in
+whereRecordOffice where was the archives
+whereRecordOffice where was the archives in
+whereRecordOffice where was the archives located
+whereRecordOffice where was the archives located in
+whereRecordOffice where was the building
+whereRecordOffice where was the building in
+whereRecordOffice where was the building located
+whereRecordOffice where was the building located in
+whereRecordOffice where was the public record office
+whereRecordOffice where was the public record office in
+whereRecordOffice where was the public record office located
+whereRecordOffice where was the public record office located in
+whereRecordOffice where was the public records office
+whereRecordOffice where was the public records office in
+whereRecordOffice where was the public records office located
+whereRecordOffice where was the public records office located in
+whereRecordOffice where was the record office
+whereRecordOffice where was the record office in
+whereRecordOffice where was the record office located
+whereRecordOffice where was the record office located in
+whereRecordOffice where was the records office
+whereRecordOffice where was the records office in
+whereRecordOffice where was the records office located
+whereRecordOffice where was the records office located in
+whereRecordOffice where were the archive
+whereRecordOffice where were the archive in
+whereRecordOffice where were the archive located
+whereRecordOffice where were the archive located in
+whereRecordOffice where were the archives
+whereRecordOffice where were the archives in
+whereRecordOffice where were the archives located
+whereRecordOffice where were the archives located in
+whereRecordOffice where were the building
+whereRecordOffice where were the building in
+whereRecordOffice where were the building located
+whereRecordOffice where were the building located in
+whereRecordOffice where were the public record office
+whereRecordOffice where were the public record office in
+whereRecordOffice where were the public record office located
+whereRecordOffice where were the public record office located in
+whereRecordOffice where were the public records office
+whereRecordOffice where were the public records office in
+whereRecordOffice where were the public records office located
+whereRecordOffice where were the public records office located in
+whereRecordOffice where were the record office
+whatHappenedToOffice what happened to the records office
+whatHappenedToOffice what happened to the building
+whatHappenedToOffice what happened to the public records office
+whatHappenedToOffice what happened to the record office
+howManyKilled how many people were killed in the fire
+howManyKilled was anybody killed
+howManyKilled was anybody killed in 1922
+howManyKilled was anybody killed in the fire
+howManyKilled was anybody killed in the fire in 1922
+howManyKilled was anyone killed
+howManyKilled was anyone killed in 1922
+howManyKilled was anyone killed in the fire
+howManyKilled was anyone killed in the fire in 1922
+howManyKilled was many killed
+howManyKilled was many killed in 1922
+howManyKilled was many killed in the fire
+howManyKilled was many killed in the fire in 1922
+howManyKilled was many people killed
+howManyKilled was many people killed in 1922
+howManyKilled was many people killed in the fire
+howManyKilled was many people killed in the fire in 1922
+howManyKilled were anybody killed
+howManyKilled were anybody killed in 1922
+howManyKilled were anybody killed in the fire
+howManyKilled were anybody killed in the fire in 1922
+howManyKilled were anyone killed
+howManyKilled were anyone killed in 1922
+howManyKilled were anyone killed in the fire
+howManyKilled were anyone killed in the fire in 1922
+howManyKilled were many killed
+howManyKilled were many killed in 1922
+howManyKilled were many killed in the fire
+howManyKilled were many killed in the fire in 1922
+howManyKilled were many people killed
+howManyKilled were many people killed in 1922
+howManyKilled were many people killed in the fire
+howManyKilled were many people killed in the fire in 1922
+whereRecordsNow where are the records kept now
+whereRecordsNow where do they keep irish records now
+whereRecordsNow where do they keep irish records nowadays
+whereRecordsNow where do they keep irish records these days
+whereRecordsNow where do they keep records now
+whereRecordsNow where do they keep records nowadays
+whereRecordsNow where do they keep records these days
+whereRecordsNow where do they keep the irish records now
+whereRecordsNow where do they keep the irish records nowadays
+whereRecordsNow where do they keep the irish records these days
+whereRecordsNow where do they keep the records now
+whereRecordsNow where do they keep the records nowadays
+whereRecordsNow where do they keep the records these days
+whereRecordsNow where do we keep irish records now
+whereRecordsNow where do we keep irish records nowadays
+whereRecordsNow where do we keep irish records these days
+whereRecordsNow where do we keep records now
+whereRecordsNow where do we keep records nowadays
+whereRecordsNow where do we keep records these days
+whereRecordsNow where do we keep the irish records now
+whereRecordsNow where do we keep the irish records nowadays
+whereRecordsNow where do we keep the irish records these days
+whereRecordsNow where do we keep the records now
+whereRecordsNow where do we keep the records nowadays
+whatHappenedToRecords what happened to the documents in the fire
+whatHappenedToRecords what happened to the documents in the fire that were blown
+whatHappenedToRecords what happened to the documents in the fire that were blown away
+whatHappenedToRecords what happened to the documents in the fire that were blown away into the sky
+whatHappenedToRecords what happened to the documents in the fire that were blown into the sky
+whatHappenedToRecords what happened to the documents in the fire that were blown up
+whatHappenedToRecords what happened to the documents in the fire that were blown up into the sky
+whatHappenedToRecords what happened to the documents that were blown
+whatHappenedToRecords what happened to the documents that were blown away
+whatHappenedToRecords what happened to the documents that were blown away into the sky
+whatHappenedToRecords what happened to the documents that were blown into the sky
+whatHappenedToRecords what happened to the documents that were blown up
+whatHappenedToRecords what happened to the documents that were blown up into the sky
+whatHappenedToRecords what happened to the papers
+whatHappenedToRecords what happened to the papers in the fire
+whatHappenedToRecords what happened to the papers in the fire that were blown
+whatHappenedToRecords what happened to the papers in the fire that were blown away
+whatHappenedToRecords what happened to the papers in the fire that were blown away into the sky
+whatHappenedToRecords what happened to the papers in the fire that were blown into the sky
+whatHappenedToRecords what happened to the papers in the fire that were blown up
+whatHappenedToRecords what happened to the papers in the fire that were blown up into the sky
+whatHappenedToRecords what happened to the papers that were blown
+whatHappenedToRecords what happened to the papers that were blown away
+whatHappenedToRecords what happened to the papers that were blown away into the sky
+whatHappenedToRecords what happened to the papers that were blown into the sky
+whatHappenedToRecords what happened to the papers that were blown up
+whatHappenedToRecords what happened to the papers that were blown up into the sky
+whatHappenedToOffice what happened to the public record office
+whatHappenedToRecords what happened to the records in the fire
+whatHappenedToRecords what happened to the records in the fire that were blown
+whatHappenedToRecords what happened to the records in the fire that were blown away
+whatHappenedToRecords what happened to the records in the fire that were blown away into the sky
+whatHappenedToRecords what happened to the records in the fire that were blown into the sky
+whatHappenedToRecords what happened to the records in the fire that were blown up
+whatHappenedToRecords what happened to the records in the fire that were blown up into the sky
+whatHappenedToOffice what happened to the records office
+whatHappenedToRecords what happened to the records that were blown
+whyFourCourts why did they build it beside the four courts
+whyFourCourts why did they build it here
+whyFourCourts why did they build the archive beside the four courts
+whyFourCourts why did they build the archive here
+whyFourCourts why did they build the archives beside the four courts
+whyFourCourts why did they build the archives here
+whyFourCourts why did they build the building beside the four courts
+whyFourCourts why did they build the building here
+whyFourCourts why did they build the public record office beside the four courts
+whyFourCourts why did they build the public record office here
+whyFourCourts why did they build the public records office beside the four courts
+whyFourCourts why did they build the public records office here
+whyFourCourts why did they build the record office beside the four courts
+whyFourCourts why did they build the record office here
+whyFourCourts why did they build the records office beside the four courts
+whyFourCourts why did they build the records office here
+whyFourCourts why was it beside the four courts
+whyFourCourts why was it here
+whyFourCourts why was the archive beside the four courts
+whyFourCourts why was the archive here
+whyFourCourts why was the archives beside the four courts
+whyFourCourts why was the archives here
+whyFourCourts why was the building beside the four courts
+whyFourCourts why was the building here
+whyFourCourts why was the original building destroyed
+whyFourCourts why was the public record office beside the four courts
+whyFourCourts why was the public record office here
+whyFourCourts why was the public records office beside the four courts
+whyFourCourts why was the public records office here
+whyFourCourts why was the record office beside the four courts
+whyFourCourts why was the record office here
+whyFourCourts why was the records office beside the four courts
+whyFourCourts why was the records office here
+aboutBuildinglighting did they have electric lights
+aboutBuildinglighting did they have electric lights at the archive
+aboutBuildinglighting did they have electric lights at the archives
+aboutBuildinglighting did they have electric lights at the building
+aboutBuildinglighting did they have electric lights at the public record office
+aboutBuildinglighting did they have electric lights at the public records office
+aboutBuildinglighting did they have electric lights at the record office
+aboutBuildinglighting did they have electric lights at the records office
+aboutBuildinglighting did they have electric lights here
+aboutBuildinglighting did they have electric lights in here
+aboutBuildinglighting did they have electric lights here at the archive
+aboutBuildinglighting did they have electric lights here at the archives
+aboutBuildinglighting did they have electric lights here at the building
+aboutBuildinglighting did they have electric lights here at the public record office
+aboutBuildinglighting did they have electric lights here at the public records office
+aboutBuildinglighting did they have electric lights here at the record office
+aboutBuildinglighting did they have electric lights here at the records office
+aboutBuildinglighting did they have electric lights here in the archive
+aboutBuildinglighting did they have electric lights here in the archives
+aboutBuildinglighting did they have electric lights here in the building
+aboutBuildinglighting did they have electric lights here in the public record office
+aboutBuildinglighting did they have electric lights here in the public records office
+aboutBuildinglighting did they have electric lights here in the record office
+aboutBuildinglighting did they have electric lights here in the records office
+aboutBuildinglighting did they have electric lights in the archive
+aboutBuildinglighting did they have electric lights in the archives
+aboutBuildinglighting did they have electric lights in the building
+aboutBuildinglighting did they have electric lights in the public record office
+aboutBuildinglighting did they have electric lights in the public records office
+aboutBuildinglighting did they have electric lights in the record office
+aboutBuildinglighting did they have electric lights in the records office
+aboutBuildinglighting were there electric lights
+aboutBuildinglighting were there electric lights at the archive
+aboutBuildinglighting were there electric lights at the archives
+aboutBuildinglighting were there electric lights at the building
+aboutBuildinglighting were there electric lights at the public record office
+aboutBuildinglighting were there electric lights at the public records office
+aboutBuildinglighting were there electric lights at the record office
+aboutBuildinglighting were there electric lights at the records office
+aboutBuildinglighting were there electric lights here
+aboutBuildinglighting were there electric lights here at the archive
+aboutBuildinglighting were there electric lights here at the archives
+aboutBuildinglighting were there electric lights here at the building
+aboutBuildinglighting were there electric lights here at the public record office
+aboutBuildinglighting were there electric lights here at the public records office
+aboutBuildinglighting were there electric lights here at the record office
+aboutBuildinglighting were there electric lights here at the records office
+aboutBuildinglighting were there electric lights here in the archive
+aboutBuildinglighting were there electric lights here in the archives
+aboutBuildinglighting were there electric lights here in the building
+aboutBuildinglighting were there electric lights here in the public record office
+aboutBuildinglighting were there electric lights here in the public records office
+aboutBuildinglighting were there electric lights here in the record office
+aboutBuildinglighting were there electric lights here in the records office
+aboutBuildinglighting were there electric lights in the archive
+aboutBuildinglighting were there electric lights in the archives
+aboutBuildinglighting were there electric lights in the building
+aboutBuildinglighting were there electric lights in the public record office
+aboutBuildinglighting were there electric lights in the public records office
+whereArchiveCameFrom where did the archive come from
+whereArchiveCameFrom where did the archives come from
+whereArchiveCameFrom why are there an archive
+whereArchiveCameFrom why are there archives
+whereArchiveCameFrom why are there the archives
+whereArchiveCameFrom why did they have an archive
+whereArchiveCameFrom why did they have archives
+whereArchiveCameFrom why did they have the archives
+whereArchiveCameFrom why did we have an archive
+whereArchiveCameFrom why did we have archives
+howFightFire did they fight the fire
+howFightFire did they have fire extinguishers
+howFightFire did they have fire extinguishers at the archive
+howFightFire did they have fire extinguishers at the archives
+howFightFire did they have fire extinguishers here
+howFightFire did they have fire extinguishers here at the archive
+howFightFire did they have fire extinguishers here at the archives
+howFightFire did they have fire extinguishers here in the archive
+howFightFire did they have fire extinguishers here in the archives
+howFightFire did they have fire extinguishers in the archive
+howFightFire did they have fire extinguishers in the archives
+howFightFire how did they fight the fire
+howFightFire were there fire extinguishers
+howFightFire were there fire extinguishers at the archive
+howFightFire were there fire extinguishers at the archives
+howFightFire were there fire extinguishers here
+howFightFire were there fire extinguishers here at the archive
+howFightFire were there fire extinguishers here at the archives
+howFightFire were there fire extinguishers here in the archive
+howFightFire were there fire extinguishers here in the archives
+howFightFire were there fire extinguishers in the archive
+howFightFire were there fire extinguishers in the archives
+howFightFire what did they do when the fire started

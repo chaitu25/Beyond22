@@ -1,5 +1,4 @@
 version: "2.0"
-
 nlu:
 - intent: greet
   examples: |
@@ -16,7 +15,6 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
-
 - intent: goodbye
   examples: |
     - good afternoon
@@ -30,7 +28,6 @@ nlu:
     - see you around
     - bye bye
     - see you later
-
 - intent: affirm
   examples: |
     - yes
@@ -44,7 +41,6 @@ nlu:
     - I know
     - know
     - I sure do
-
 - intent: deny
   examples: |
     - no
@@ -58,7 +54,6 @@ nlu:
     - nop
     - No idea
     - Absolutely not
-
 - intent: mood_great
   examples: |
     - perfect
@@ -75,7 +70,6 @@ nlu:
     - so so perfect
     - so good
     - so perfect
-
 - intent: mood_unhappy
   examples: |
     - my day was horrible
@@ -92,10 +86,870 @@ nlu:
     - extremly sad
     - so saad
     - so sad
-
 - intent: bot_challenge
   examples: |
     - are you a bot?
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+- intent: faq/archiveBuilt
+  examples: |
+    - When was the Archive built?
+    - when did the archive morph to what it was created?
+    - when did you build the archives?
+    - how was the archives created?
+    - when was the archive created?
+    - how was the archive built?
+    - when was the archives built?
+    - when was the archive built?
+    - when was the archive public record office built?
+    - when was the archive public record office building built?
+    - when was the archive public record office building build?
+    - when was the public records office built
+    - when did the building work begin
+    - when did the building work end
+    - when did the building work finish
+- intent: faq/archiveOwner
+  examples: |
+    - Who owned the archive?
+    - who owns an archive?
+    - who is the owner of the archives?
+    - who is owning the archive?
+    - who owns the archives?
+    - who owned the archive?
+    - who is responsible for maintaining the public records?
+    - who kept records?
+    - who is the owner of all public records?
+    - who owned public records?
+    - who owns the public records?
+    - who owned the public records?
+    - how did the public record office work?
+    - who ran the public records office?
+    - who ran the public record office?
+    - who owns the public records office?
+    - who owned the public records office?
+    - who owned the public record office?
+- intent: faq/virtualArchiveOwner
+  examples: |
+    - who made this virtual archive?
+    - who is the creator of this?
+    - who created this?
+    - what created this?
+    - who created this virtual archive?
+    - who created this virtual treasury?
+    - who created this virtual record treasury?
+    - and who created the virtual record treasury?
+- intent: faq/whereVirtualArchive
+  examples: |
+    - where is the virtual record of the treasury?
+    - where is the virtual treasury?
+    - where's the virtual record treasury?
+    - where is the virtual record treasury?
+    - where's the virtual archive?
+    - where is the virtual archive?
+    - where is this virtual archive?
+    - where is the digital treasury?
+- intent: faq/oldestRecord
+  examples: |
+    - how old is the oldest record at the archive?
+    - how old is the oldest record at the archives?
+    - how old is the oldest record at the building
+    - how old is the oldest record at the public record office
+    - how old is the oldest record at the public records office
+    - how old is the oldest record at the record office
+    - how old is the oldest record at the records office
+    - how old is the oldest record here
+    - how old is the oldest record here at the archive
+    - how old is the oldest record here at the archives
+    - how old is the oldest record here at the building
+    - how old is the oldest record here at the public record office
+    - how old is the oldest record here at the public records office
+- intent: faq/whatSurvived
+  examples: |
+    - did anything remain after the explosion
+    - did anything remain after the fire
+    - did anything survive the explosion
+    - did anything survive the fire
+    - did much remain after the explosion
+    - did much remain after the fire
+    - did much survive the explosion
+    - did much survive the fire
+    - what did they find after the building was bombed
+    - what did they find after the building was burned
+    - what did they find after the building was destroyed
+    - what did they find after the explosion
+    - what did they find after the fire
+    - what did they find when the building was bombed
+    - what did they find when the building was burned
+    - what did they find when the building was destroyed
+    - what did they find when the explosion
+    - what survived after the building was bombed
+    - what survived after the building was burned
+    - what survived after the building was destroyed
+    - what survived after the explosion
+    - what survived after the fire
+    - what survived the explosion
+    - what survived the fire
+    - what survived when the building was bombed
+    - what survived when the building was burned
+    - what survived when the building was destroyed
+    - what was left after the building was bombed
+    - what was left after the building was burned
+    - what was left after the building was destroyed
+    - what was left after the explosion
+    - what was left after the fire
+    - what was left when the building was bombed
+    - what was left when the building was burned
+    - what was left when the building was destroyed
+    - what was left when the explosion
+    - what was left when the fire
+- intent: faq/recordDetails
+  examples: |
+    - what did they have
+    - what did they have at the archive
+    - what did they have at the archives
+    - what did they have at the building
+    - what did they have at the public record office
+    - what did they have at the public records office
+    - what did they have at the record office
+    - what did they have at the records office
+    - what did they have here
+    - what did they have here at the archive
+    - what did they have here at the archives
+    - what did they have here at the building
+    - what did they have here at the public record office
+    - what did they have here at the public records office
+    - what did they have here at the record office
+    - what did they have here at the records office
+    - what did they have here in the archive
+    - what did they have here in the archives
+    - what did they have here in the building
+    - what did they have here in the public record office
+    - what did they have here in the public records office
+    - what did they have here in the record office
+    - what did they have here in the records office
+    - what did they have in the archive
+    - what did they have in the archives
+    - what did they have in the building
+    - what did they have in the public record office
+    - what did they have in the public records office
+    - what did they have in the record office
+    - what did they have in the records office
+    - what did they keep
+    - what did they keep at the archive
+    - what did they keep at the archives
+    - what did they keep at the building
+    - what did they keep at the public record office
+    - what did they keep at the public records office
+    - what did they keep at the record office
+    - what did they keep at the records office
+    - what did they keep here
+    - what did they keep here at the archive
+    - what did they keep here at the archives
+    - what did they keep here at the building
+    - what did they keep here at the public record office
+    - what did they keep here at the public records office
+    - what did they keep here at the record office
+    - what did they keep here at the records office
+    - what did they keep here in the archive
+    - what did they keep here in the archives
+    - what did they keep here in the building
+    - what did they keep here in the public record office
+    - what did they keep here in the public records office
+    - what did they keep here in the record office
+    - what did they keep here in the records office
+    - what did they keep in the archive
+    - what did they keep in the archives
+    - what did they keep in the building
+    - what did they keep in the public record office
+    - what did they keep in the public records office
+    - what did they keep in the record office
+    - what did they keep in the records office
+    - what do they have at the archive
+    - what do they have at the archives
+    - what do they have at the building
+    - what do they have at the public record office
+    - what do they have at the public records office
+    - what do they have at the record office
+    - what do they have at the records office
+    - what do they have here
+    - what do they have here at the archive
+    - what do they have here at the archives
+    - what do they have here at the building
+- intent: faq/archiveModel
+  examples: |
+    - how do you build the three-dimensional model of the public record office
+    - how do you build the three-dimensional model of the public records office
+    - how do you build the three-dimensional model of the record office
+    - how do you build the three-dimensional model of the records office
+    - how do you build the three-dimensional model of this place
+    - how do you create the 3d model
+    - how do you create the 3d model of the archive
+    - how do you create the 3d model of the archives
+    - how do you create the 3d model of the building
+    - how do you create the 3d model of the public record office
+    - how do you create the 3d model of the public records office
+    - how do you create the 3d model of the record office
+    - how do you create the 3d model of the records office
+    - how do you create the 3d model of this place
+    - how do you create the model
+    - how do you create the model of the archive
+    - how do you create the model of the archives
+    - how do you create the model of the building
+    - how do you create the model of the public record office
+    - how do you create the model of the public records office
+    - how do you create the model of the record office
+    - how do you create the model of the records office
+    - how do you create the model of this place
+    - how do you create the three dimensional model
+    - how do you create the three dimensional model of the archive
+    - how do you create the three dimensional model of the archives
+    - how do you create the three dimensional model of the building
+    - how do you create the three dimensional model of the public record office
+    - how do you create the three dimensional model of the public records office
+    - how do you create the three dimensional model of the record office
+    - how do you create the three dimensional model of the records office
+    - how do you create the three dimensional model of this place
+    - how do you create the three-dimensional model
+    - how do you create the three-dimensional model of the archive
+    - how do you create the three-dimensional model of the archives
+    - how do you create the three-dimensional model of the building
+    - how do you create the three-dimensional model of the public record office
+    - how do you create the three-dimensional model of the public records office
+    - how do you create the three-dimensional model of the record office
+    - how do you create the three-dimensional model of the records office
+    - how do you create the three-dimensional model of this place
+    - how do you make the 3d model
+    - how do you make the 3d model of the archive
+    - how do you make the 3d model of the archives
+    - how do you make the 3d model of the building
+    - how do you make the 3d model of the public record office
+    - how do you make the 3d model of the public records office
+    - how do you make the 3d model of the record office
+    - how do you make the 3d model of the records office
+    - how do you make the 3d model of this place
+    - how do you make the model
+- intent: faq/howManyRecords
+  examples: |
+    - how many books were there here in the archive
+    - how many books were there here in the archives
+    - how many books were there here in the building
+    - how many books were there here in the public record office
+    - how many books were there here in the public records office
+    - how many books were there here in the record office
+    - how many books were there here in the records office
+    - how many books were there in the archive
+    - how many books were there in the archives
+    - how many books were there in the building
+    - how many books were there in the public record office
+    - how many books were there in the public records office
+    - how many books were there in the record office
+    - how many books were there in the records office
+    - how many documents were there in the public record office
+    - how many items were at the archive
+    - how many items were at the archives
+    - how many items were at the building
+    - how many items were at the public record office
+    - how many items were at the public records office
+    - how many items were at the record office
+    - how many items were at the records office
+    - how many items were here
+    - how many items were here at the archive
+    - how many items were here at the archives
+    - how many items were here at the building
+    - how many items were here at the public record office
+    - how many items were here at the public records office
+    - how many items were here at the record office
+    - how many items were here at the records office
+    - how many items were here in the archive
+    - how many items were here in the archives
+    - how many items were here in the building
+    - how many items were here in the public record office
+    - how many items were here in the public records office
+    - how many items were here in the record office
+    - how many items were here in the records office
+    - how many items were in the archive
+    - how many items were in the archives
+    - how many items were in the building
+    - how many items were in the public record office
+    - how many items were in the public records office
+    - how many items were in the record office
+    - how many items were in the records office
+    - how many items were there
+    - how many items were there at the archive
+    - how many items were there at the archives
+    - how many items were there at the building
+    - how many items were there at the public record office
+    - how many items were there at the public records office
+    - how many items were there at the record office
+    - how many items were there at the records office
+    - how many items were there here
+    - how many items were there here at the archive
+    - how many items were there here at the archives
+    - how many items were there here at the building
+- intent: faq/whatCausedFire
+  examples: |
+    - did fianna fail or fine gael blow up the record office
+    - did the blueshirts burn the archive
+    - how did the fire begin
+    - how did the fire start
+    - what caused the fire
+    - what set the fire
+    - what started the fire
+    - who blew up the building
+    - who burnt the archive
+    - who caused the fire
+    - who destroyed the four courts
+    - who set the fire
+    - who started the fire
+- intent: faq/whoWorked
+  examples: |
+    - how many people work at the archive
+    - how many people work at the archives
+    - how many people work at the building
+    - how many people work at the public record office
+    - how many people work at the public records office
+    - how many people work at the record office
+    - how many people work at the records office
+    - how many people work here
+    - how many people work here at the archive
+    - how many people work here at the archives
+    - how many people work here at the building
+    - how many people work here at the public record office
+    - how many people work here at the public records office
+    - how many people work here at the record office
+    - how many people work here at the records office
+    - how many people work here in the archive
+    - how many people work here in the archives
+    - how many people work here in the building
+    - how many people work here in the public record office
+    - how many people work here in the public records office
+    - how many people work here in the record office
+    - how many people work here in the records office
+    - how many people work in the archive
+    - how many people work in the archives
+    - how many people work in the building
+    - how many people work in the public record office
+    - how many people work in the public records office
+    - how many people work in the record office
+    - how many people work in the records office
+    - how many people worked
+    - how many people worked at the archive
+    - how many people worked at the archives
+    - how many people worked at the building
+    - how many people worked at the public record office
+    - how many people worked at the public records office
+    - how many people worked at the record office
+    - how many people worked at the records office
+    - how many people worked here
+    - how many people worked here at the archive
+    - how many people worked here at the archives
+    - how many people worked here at the building
+    - how many people worked here at the public record office
+    - how many people worked here at the public records office
+    - how many people worked here at the record office
+    - how many people worked here at the records office
+    - how many people worked here in the archive
+    - how many staff are at the archives
+    - how many staff are at the building
+    - how many staff are at the public record office
+    - how many staff are at the public records office
+    - how many staff are at the record office
+    - how many staff are at the records office
+    - how many staff are here
+    - how many staff are here at the archive
+    - how many staff are here at the archives
+    - how many staff are here at the building
+    - how many staff are here at the public record office
+    - how many staff are here at the public records office
+    - how many staff are here at the record office
+    - how many staff are here at the records office
+    - how many staff are here in the archive
+    - how many staff are here in the archives
+    - how many staff are here in the building
+    - how many staff are here in the public record office
+    - how many staff are here in the public records office
+    - how many staff are here in the record office
+    - how many staff are here in the records office
+    - how many staff are in the archive
+    - how many staff are in the archives
+- intent: faq/whoUsedArchive
+  examples: |
+    - did many people use the records
+    - who could come here
+    - who could come here into the archive
+    - who could come here into the archives
+    - who could come here into the building
+    - who could come here into the public record office
+    - who could come here into the public records office
+    - who could come here into the record office
+    - who could come here into the records office
+    - who could come here to the archive
+    - who could come here to the archives
+    - who could come here to the building
+    - who could come here to the public record office
+    - who could come here to the public records office
+    - who could come here to the record office
+    - who could come here to the records office
+    - who could come into the archive
+    - who could come into the archives
+    - who could come into the building
+    - who could come into the public record office
+    - who could come into the public records office
+    - who could come into the record office
+    - who could come into the records office
+    - who could come to the archive
+    - who could come to the archives
+    - who could come to the building
+    - who could come to the public record office
+    - who could come to the public records office
+    - who could come to the record office
+    - who could come to the records office
+    - who could look at the records
+    - who could read the records
+    - who could use the archive
+    - who could use the archives
+    - who could use the building
+    - who could use the public record office
+    - who could use the public records office
+    - who could use the record office
+    - who could use the records office
+    - who was allowed to come
+    - who was allowed to come here
+    - who was allowed to come here into the archive
+    - who was allowed to come here into the archives
+    - who was allowed to come here into the building
+    - who was allowed to come here into the public record office
+    - who was allowed to come here into the public records office
+    - who was allowed to come here into the record office
+    - who was allowed to come here into the records office
+    - who was allowed to come here to the archive
+    - who was allowed to come here to the archives
+    - who was allowed to come here to the building
+    - who was allowed to come here to the public record office
+    - who was allowed to come here to the public records office
+    - who was allowed to come here to the record office
+    - who was allowed to come here to the records office
+    - who was allowed to come into the archive
+    - who was allowed to come into the archives
+    - who was allowed to come into the building
+    - who was allowed to come into the public record office
+    - who was allowed to come into the public records office
+    - who was allowed to come into the record office
+    - who was allowed to come into the records office
+    - who was allowed to come to the archive
+    - who was allowed to come to the archives
+    - who was allowed to come to the building
+    - who was allowed to come to the public record office
+    - who was allowed to come to the public records office
+    - who was allowed to come to the record office
+    - who was allowed to come to the records office
+    - who was allowed to look at the records
+    - who was allowed to read the records
+    - who was allowed to use the archive
+    - who was allowed to use the archives
+    - who was allowed to use the building
+    - who was allowed to use the public record office
+    - who was allowed to use the public records office
+- intent: faq/aboutBuilding
+  examples: |
+    - can you please tell me about the archive
+    - can you please tell me about the archives
+    - can you please tell me about the building
+    - can you please tell me about the public record office
+    - can you please tell me about the public records office
+    - can you please tell me about the record office
+    - can you please tell me about the records office
+    - can you please tell me more about the archive
+    - can you please tell me more about the archives
+    - can you please tell me more about the building
+    - can you please tell me more about the public record office
+    - can you please tell me more about the public records office
+    - can you please tell me more about the record office
+    - can you please tell me more about the records office
+    - can you tell me about the archive
+    - can you tell me about the building
+    - can you tell me about the public record office
+    - can you tell me about the public records office
+    - can you tell me about the record office
+    - can you tell me about the records office
+    - can you tell me more about the archive
+    - can you tell me more about the archives
+    - can you tell me more about the building
+    - can you tell me more about the public record office
+    - can you tell me more about the public records office
+    - can you tell me more about the record office
+    - can you tell me more about the records office
+    - please tell me about the archive
+    - please tell me about the archives
+    - please tell me about the building
+    - please tell me about the public record office
+    - please tell me about the public records office
+    - please tell me about the record office
+    - please tell me about the records office
+    - please tell me more about the archive
+    - please tell me more about the archives
+    - please tell me more about the building
+    - please tell me more about the public record office
+    - please tell me more about the public records office
+    - please tell me more about the record office
+    - please tell me more about the records office
+    - tell me about the archive
+    - tell me about the archives
+    - tell me about the building
+    - tell me about the public record office
+    - tell me about the public records office
+    - tell me about the record office
+    - tell me about the records office
+    - tell me more about the archive
+    - tell me more about the archives
+    - tell me more about the building
+    - tell me more about the public record office
+    - tell me more about the public records office
+    - tell me more about the record office
+    - tell me more about the records office
+- intent: faq/whyArchive
+  examples: |
+    - why do we have an archive
+    - why do we have archives
+    - why do we need an archive
+    - why do we need archives
+    - why is there an archive
+    - why is there archives
+    - why is there the archives
+    - why was there a public record office
+    - why was there an archive
+    - why was there archives
+    - why was there the archives
+    - why were there an archive
+    - why were there archives
+    - why were there the archives
+- intent: faq/valuableItem
+  examples: |
+    - what is the most valuable item here at the public record office
+    - what is the most valuable item here at the public records office
+    - what is the most valuable item here at the record office
+    - what is the most valuable item here at the records office
+    - what is the most valuable item here in the archive
+    - what is the most valuable item at the record office
+    - what is the most valuable item at the records office
+    - what is the most valuable item here
+    - what is the most valuable item here at the archive
+    - what is the most valuable item here at the archives
+    - what is the most valuable item here at the building
+    - what is the most valuable item here at the collection
+- intent: faq/whatHappenedToRecords
+  examples: |
+    - what happened to the documents in the fire
+    - what happened to the documents in the fire that were blown
+    - what happened to the documents in the fire that were blown away
+    - what happened to the documents in the fire that were blown away into the sky
+    - what happened to the documents in the fire that were blown into the sky
+    - what happened to the documents in the fire that were blown up
+    - what happened to the documents in the fire that were blown up into the sky
+    - what happened to the documents that were blown
+    - what happened to the documents that were blown away
+    - what happened to the documents that were blown away into the sky
+    - what happened to the documents that were blown into the sky
+    - what happened to the documents that were blown up
+    - what happened to the documents that were blown up into the sky
+    - what happened to the papers
+    - what happened to the papers in the fire
+    - what happened to the papers in the fire that were blown
+    - what happened to the papers in the fire that were blown away
+    - what happened to the papers in the fire that were blown away into the sky
+    - what happened to the papers in the fire that were blown into the sky
+    - what happened to the papers in the fire that were blown up
+    - what happened to the papers in the fire that were blown up into the sky
+    - what happened to the papers that were blown
+    - what happened to the papers that were blown away
+    - what happened to the papers that were blown away into the sky
+    - what happened to the papers that were blown into the sky
+    - what happened to the papers that were blown up
+    - what happened to the papers that were blown up into the sky
+    - what happened to the records in the fire
+    - what happened to the records in the fire that were blown
+    - what happened to the records in the fire that were blown away
+    - what happened to the records in the fire that were blown away into the sky
+    - what happened to the records in the fire that were blown into the sky
+    - what happened to the records in the fire that were blown up
+    - what happened to the records in the fire that were blown up into the sky
+    - what happened to the records that were blown
+- intent: faq/whereRecordsNow
+  examples: |
+    - where are the records kept now
+    - where do they keep irish records now
+    - where do they keep irish records nowadays
+    - where do they keep irish records these days
+    - where do they keep records now
+    - where do they keep records nowadays
+    - where do they keep records these days
+    - where do they keep the irish records now
+    - where do they keep the irish records nowadays
+    - where do they keep the irish records these days
+    - where do they keep the records now
+    - where do they keep the records nowadays
+    - where do they keep the records these days
+    - where do we keep irish records now
+    - where do we keep irish records nowadays
+    - where do we keep irish records these days
+    - where do we keep records now
+    - where do we keep records nowadays
+    - where do we keep records these days
+    - where do we keep the irish records now
+    - where do we keep the irish records nowadays
+    - where do we keep the irish records these days
+    - where do we keep the records now
+    - where do we keep the records nowadays
+- intent: faq/howManyKilled
+  examples: |
+    - how many people were killed in the fire
+    - was anybody killed
+    - was anybody killed in 1922
+    - was anybody killed in the fire
+    - was anybody killed in the fire in 1922
+    - was anyone killed
+    - was anyone killed in 1922
+    - was anyone killed in the fire
+    - was anyone killed in the fire in 1922
+    - was many killed
+    - was many killed in 1922
+    - was many killed in the fire
+    - was many killed in the fire in 1922
+    - was many people killed
+    - was many people killed in 1922
+    - was many people killed in the fire
+    - was many people killed in the fire in 1922
+    - were anybody killed
+    - were anybody killed in 1922
+    - were anybody killed in the fire
+    - were anybody killed in the fire in 1922
+    - were anyone killed
+    - were anyone killed in 1922
+    - were anyone killed in the fire
+    - were anyone killed in the fire in 1922
+    - were many killed
+    - were many killed in 1922
+    - were many killed in the fire
+    - were many killed in the fire in 1922
+    - were many people killed
+    - were many people killed in 1922
+    - were many people killed in the fire
+    - were many people killed in the fire in 1922
+- intent: faq/whatHappenedToOffice
+  examples: |
+    - what happened to the records office
+    - what happened to the building
+    - what happened to the public records office
+    - what happened to the record office
+    - what happened to the public record office
+- intent: faq/whereRecordOffice
+  examples: |
+    - where is the record office
+    - where is the record office in
+    - where is the record office located
+    - where is the record office located in
+    - where is the records office
+    - where is the records office in
+    - where is the records office located
+    - where is the records office located in
+    - where was the archive
+    - where was the archive in
+    - where was the archive located
+    - where was the archive located in
+    - where was the archives
+    - where was the archives in
+    - where was the archives located
+    - where was the archives located in
+    - where was the building
+    - where was the building in
+    - where was the building located
+    - where was the building located in
+    - where was the public record office
+    - where was the public record office in
+    - where was the public record office located
+    - where was the public record office located in
+    - where was the public records office
+    - where was the public records office in
+    - where was the public records office located
+    - where was the public records office located in
+    - where was the record office
+    - where was the record office in
+    - where was the record office located
+    - where was the record office located in
+    - where was the records office
+    - where was the records office in
+    - where was the records office located
+    - where was the records office located in
+    - where were the archive
+    - where were the archive in
+    - where were the archive located
+    - where were the archive located in
+    - where were the archives
+    - where were the archives in
+    - where were the archives located
+    - where were the archives located in
+    - where were the building
+    - where were the building in
+    - where were the building located
+    - where were the building located in
+    - where were the public record office
+    - where were the public record office in
+    - where were the public record office located
+    - where were the public record office located in
+    - where were the public records office
+    - where were the public records office in
+    - where were the public records office located
+    - where were the public records office located in
+    - where were the record office
+- intent: faq/aboutArchitect
+  examples: |
+    - who designed the archives
+    - who designed the building
+    - who designed the public record office
+    - who designed the public records office
+    - who designed the record office
+    - who designed the records office
+    - who was the architect
+    - who was the architects
+    - who were the architects
+- intent: faq/currentArchive
+  examples: |
+    - what is built on the current site of the archive?
+    - what is currently built on the site of the public records office?
+    - what's currently built on the site of the public records office?
+    - what is currently on the site of the public records office?
+    - what's built on the archive site?
+- intent: faq/howFightFire
+  examples: |
+    - did they fight the fire
+    - did they have fire extinguishers
+    - did they have fire extinguishers at the archive
+    - did they have fire extinguishers at the archives
+    - did they have fire extinguishers here
+    - did they have fire extinguishers here at the archive
+    - did they have fire extinguishers here at the archives
+    - did they have fire extinguishers here in the archive
+    - did they have fire extinguishers here in the archives
+    - did they have fire extinguishers in the archive
+    - did they have fire extinguishers in the archives
+    - how did they fight the fire
+    - were there fire extinguishers
+    - were there fire extinguishers at the archive
+    - were there fire extinguishers at the archives
+    - were there fire extinguishers here
+    - were there fire extinguishers here at the archive
+    - were there fire extinguishers here at the archives
+    - were there fire extinguishers here in the archive
+    - were there fire extinguishers here in the archives
+    - were there fire extinguishers in the archive
+    - were there fire extinguishers in the archives
+    - what did they do when the fire started
+- intent: faq/whereArchiveCameFrom
+  examples: |
+    - where did the archive come from
+    - where did the archives come from
+    - why are there an archive
+    - why are there archives
+    - why are there the archives
+    - why did they have an archive
+    - why did they have archives
+    - why did they have the archives
+    - why did we have an archive
+    - why did we have archives
+- intent: faq/whyFourCourts
+  examples: |
+    - why did they build it beside the four courts
+    - why did they build it here
+    - why did they build the archive beside the four courts
+    - why did they build the archive here
+    - why did they build the archives beside the four courts
+    - why did they build the archives here
+    - why did they build the building beside the four courts
+    - why did they build the building here
+    - why did they build the public record office beside the four courts
+    - why did they build the public record office here
+    - why did they build the public records office beside the four courts
+    - why did they build the public records office here
+    - why did they build the record office beside the four courts
+    - why did they build the record office here
+    - why did they build the records office beside the four courts
+    - why did they build the records office here
+    - why was it beside the four courts
+    - why was it here
+    - why was the archive beside the four courts
+    - why was the archive here
+    - why was the archives beside the four courts
+    - why was the archives here
+    - why was the building beside the four courts
+    - why was the building here
+    - why was the original building destroyed
+    - why was the public record office beside the four courts
+    - why was the public record office here
+    - why was the public records office beside the four courts
+    - why was the public records office here
+    - why was the record office beside the four courts
+    - why was the record office here
+    - why was the records office beside the four courts
+    - why was the records office here
+- intent: faq/aboutBuildinglighting
+  examples: |
+    - did they have electric lights
+    - did they have electric lights at the archive
+    - did they have electric lights at the archives
+    - did they have electric lights at the building
+    - did they have electric lights at the public record office
+    - did they have electric lights at the public records office
+    - did they have electric lights at the record office
+    - did they have electric lights at the records office
+    - did they have electric lights here
+    - did they have electric lights in here
+    - did they have electric lights here at the archive
+    - did they have electric lights here at the archives
+    - did they have electric lights here at the building
+    - did they have electric lights here at the public record office
+    - did they have electric lights here at the public records office
+    - did they have electric lights here at the record office
+    - did they have electric lights here at the records office
+    - did they have electric lights here in the archive
+    - did they have electric lights here in the archives
+    - did they have electric lights here in the building
+    - did they have electric lights here in the public record office
+    - did they have electric lights here in the public records office
+    - did they have electric lights here in the record office
+    - did they have electric lights here in the records office
+    - did they have electric lights in the archive
+    - did they have electric lights in the archives
+    - did they have electric lights in the building
+    - did they have electric lights in the public record office
+    - did they have electric lights in the public records office
+    - did they have electric lights in the record office
+    - did they have electric lights in the records office
+    - were there electric lights
+    - were there electric lights at the archive
+    - were there electric lights at the archives
+    - were there electric lights at the building
+    - were there electric lights at the public record office
+    - were there electric lights at the public records office
+    - were there electric lights at the record office
+    - were there electric lights at the records office
+    - were there electric lights here
+    - were there electric lights here at the archive
+    - were there electric lights here at the archives
+    - were there electric lights here at the building
+    - were there electric lights here at the public record office
+    - were there electric lights here at the public records office
+    - were there electric lights here at the record office
+    - were there electric lights here at the records office
+    - were there electric lights here in the archive
+    - were there electric lights here in the archives
+    - were there electric lights here in the building
+    - were there electric lights here in the public record office
+    - were there electric lights here in the public records office
+    - were there electric lights here in the record office
+    - were there electric lights here in the records office
+    - were there electric lights in the archive
+    - were there electric lights in the archives
+    - were there electric lights in the building
+    - were there electric lights in the public record office
+    - were there electric lights in the public records office
