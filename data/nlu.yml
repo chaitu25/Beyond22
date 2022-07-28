@@ -28,6 +28,10 @@ nlu:
     - see you around
     - bye bye
     - see you later
+    - Okay great. Thank you, I'm closing the chat now.
+    - thats all thanks
+    - Okay great. Thank you, I'm closing the chat now
+    - okay I am done now
 - intent: affirm
   examples: |
     - yes
@@ -97,7 +101,6 @@ nlu:
     - When was the Archive built?
     - when did the archive morph to what it was created?
     - when did you build the archives?
-    - how was the archives created?
     - when was the archive created?
     - how was the archive built?
     - when was the archives built?
@@ -149,6 +152,10 @@ nlu:
     - where is the virtual archive?
     - where is this virtual archive?
     - where is the digital treasury?
+    - How can I access the Virtual Treasury ?
+    - how can i get access to the virtual treasury?
+    - how can you access the virtual treasury?
+    - how can you visit the virtual treasury?
 - intent: faq/oldestRecord
   examples: |
     - how old is the oldest record at the archive?
@@ -205,7 +212,6 @@ nlu:
     - what was left when the fire
 - intent: faq/recordDetails
   examples: |
-    - what did they have
     - what did they have at the archive
     - what did they have at the archives
     - what did they have at the building
@@ -235,7 +241,6 @@ nlu:
     - what did they have in the public records office
     - what did they have in the record office
     - what did they have in the records office
-    - what did they keep
     - what did they keep at the archive
     - what did they keep at the archives
     - what did they keep at the building
@@ -276,6 +281,17 @@ nlu:
     - what do they have here at the archive
     - what do they have here at the archives
     - what do they have here at the building
+    - what can i find in the record treasury ?
+    - what can i find in the treasury of the government?
+    - can you list the records of the treasury?
+    - what can i find in the record office?
+    - what can you find in the record treasury?
+    - what types of books can you find in the record treasury?
+    - what records can i find in the public records office?
+    - what records can i find at the treasury?
+    - what record can i find in the treasury?
+    - what records can i find in the register treasury?
+    - I want to know what type of public records are stored in the Treasury ?
 - intent: faq/archiveModel
   examples: |
     - how do you build the three-dimensional model of the public record office
@@ -329,6 +345,8 @@ nlu:
     - how do you make the 3d model of the records office
     - how do you make the 3d model of this place
     - how do you make the model
+    - how do you make the ar model of your archive?
+    - how do you created the ar model of archive?
 - intent: faq/howManyRecords
   examples: |
     - how many books were there here in the archive
@@ -389,7 +407,6 @@ nlu:
     - how many items were there here at the building
 - intent: faq/whatCausedFire
   examples: |
-    - did fianna fail or fine gael blow up the record office
     - did the blueshirts burn the archive
     - how did the fire begin
     - how did the fire start
@@ -402,6 +419,14 @@ nlu:
     - who destroyed the four courts
     - who set the fire
     - who started the fire
+    - what caused fire ?
+    - how fire ?
+    - Why was there a fire in the Public Records office ?
+    - tell me the cause of the fire in the public records office?
+    - why did the public records office get a fire?
+    - why was there a fire at the public records office?
+    - why did the office fire?
+    - how was the fire caught in record treasury in 1922?
 - intent: faq/whoWorked
   examples: |
     - how many people work at the archive
@@ -736,6 +761,7 @@ nlu:
     - were many people killed in 1922
     - were many people killed in the fire
     - were many people killed in the fire in 1922
+    - did anybody died in fire incidence
 - intent: faq/whatHappenedToOffice
   examples: |
     - what happened to the records office
@@ -745,15 +771,6 @@ nlu:
     - what happened to the public record office
 - intent: faq/whereRecordOffice
   examples: |
-    - where is the record office
-    - where is the record office in
-    - where is the record office located
-    - where is the record office located in
-    - where is the records office
-    - where is the records office in
-    - where is the records office located
-    - where is the records office located in
-    - where was the archive
     - where was the archive in
     - where was the archive located
     - where was the archive located in
@@ -813,6 +830,8 @@ nlu:
     - who was the architect
     - who was the architects
     - who were the architects
+    - who are the architect of the archive?
+    - who designed the archive
 - intent: faq/currentArchive
   examples: |
     - what is built on the current site of the archive?
@@ -857,6 +876,7 @@ nlu:
     - why did they have the archives
     - why did we have an archive
     - why did we have archives
+    - where all these records came from
 - intent: faq/whyFourCourts
   examples: |
     - why did they build it beside the four courts
@@ -953,3 +973,138 @@ nlu:
     - were there electric lights in the building
     - were there electric lights in the public record office
     - were there electric lights in the public records office
+- intent: faq/whenFire
+  examples: |
+    - when fire?
+    - when did the fire incident exactly happen ?
+    - when was the incident?
+    - when the fire happened?
+    - when did the fire start?
+    - when did the fire actually take place?
+    - when did the fire incident happen?
+- intent: faq/archiveARModel
+  examples: |
+    - Do we have a AR representation of the same as shown in video ?
+    - is there an ar model of an archive?
+    - show me the model in the archive?
+    - where can i find the ar model of the archive?
+    - how can i run a real-time ar model of the archive?
+    - how can you use an ar model of an archive?
+    - where can i find an amazing virtual reality model of archives?
+    - where do i get the virtual reality model of archives?
+    - how do i get the virtual reality model of the archives?
+    - how does a virtual reality model work?
+- intent: faq/fireLoss
+  examples: |
+    - What kinds of records were lost in the fire?
+    - which types of documents were lost in the fire?
+    - what types of records were lost in the fire?
+    - what kinds of documents were lost in the fire?
+    - what is lost in a fire?
+    - What was lost in the fire ?
+    - what was lost by the fire?
+    - what was lost ?
+    - what has been lost in the fire?
+- intent: faq/howManyVirtualRecords
+  examples: |
+    - how many records does the virtual treasury have ?
+    - how many records are in the virtual treasury?
+    - how many records you have now ?
+- intent: faq/recordRestore
+  examples: |
+    - How are the records being conserved ?
+    - what happens to the records that are being restored?
+    - how do the records get restored?
+    - how are the records restored?
+    - how do we preserve records?
+    - How are you recovering records
+- intent: faq/whereRecordOfficeNow
+  examples: |
+    - where is the archive now?
+    - where are the archives now ?
+    - where is the archive house now?
+    - where is the archive building now?
+    - where is the archive building?
+    - where is the national archive building currently?
+    - where's the archive now?
+- intent: faq/searchRecords
+  examples: |
+    - can you list the best ways to search for a record on a web site?
+    - how can i find a record of a website?
+    - how do i search for a record on my website?
+    - do you have a guide for researching records ?
+    - how can I search a record on a virtual archive ?
+    - I want to find a record in a virtual archive
+    - how do you I start searching for a record
+    - can you list the ways to search for a record in virtual archive website?
+- intent: faq/seeVR
+  examples: |
+    - Do I need a 3d or vr googles to see virtual model?
+    - do i need a google chrome or 3d tool to see a virtual model?
+    - Do I need a vr headset or googles to see virtual archives?
+    - do i need vr goggles
+    - do i need vr goggles to see virtual model of archives
+- intent: faq/archiveTimeCost
+  examples: |
+    - How much time can I spend there ?
+    - What are the opening hours? Is it free ?
+    - is virtual archive Free of cost ?
+    - what are opening hours?
+    - tell me the hours of operation of virtual archive ?
+    - what does the virtual treasury cost to use?
+    - is there a cost for using a virtual treasury?
+    - can I visit the website at any time ?
+    - how much does it cost for the virtual treasury to access?
+    - is virtual archive always open
+- intent: faq/howToUse
+  examples: |
+    - what do i need to go on a virtual tour ?
+    - what do i need to use virtual record treasury?
+    - what do i need to see virtual archives?
+    - what should i do to view the archive of an archive?
+    - what should i do to see an archive model ?
+    - what is required to access the archive model ?
+    - what can i do to view a virtual archive ?
+    - what is required to see virtual archives ?
+    - do I need to create my account to view virtual archive ?
+    - Great, do I need any user id and password created to use the Virtual Record Treasury ?
+- intent: faq/archiveReplaced
+  examples: |
+    - how were the damaged archives replaced?
+    - How damaged archives were replaced ?
+    - where did the replacements come from ?
+    - where did the copies of archive come from?
+    - where did those replacements come from?
+    - where were the copies of archive ?
+- intent: faq/offlineArchive
+  examples: |
+    - Is it also available offline ?
+    - is there an offline version?
+    - are archived archives offline?
+    - does it also exist offline?
+    - is it also available offline?
+    - are archives available offline?
+    - do you have a way to see the archive in real ?
+    - can I visit the archive physically ?
+    - can you visit archive files offline?
+    - can you visit the archive physically?
+    - can i visit the archive in person?
+    - can i physically see the arhives ?
+- intent: faq/addNewRecord
+  examples: |
+    - Can I add a new record in archive?
+    - How do I submit a record in the treasury ?
+    - how do i submit documents to the treasury?
+- intent: faq/howRecordsDigitized
+  examples: |
+    - What are you doing with them ?
+    - how will we re-create treasury records ?
+    - how can one restore the old record treasury?
+    - how can you recreate the record treasury?
+    - what should be done to restore the record treasury?
+    - how is the digital storage of the documents done?
+    - how do you restore the lost archives in the virtual record treasury?
+    - how do you restore lost archives?
+    - how does the virtual record treasury manage to recover the lost records?
+    - how does the virtual records trust re-store the lost archives?
+    - what will be done to replicate the record treasury?

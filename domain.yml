@@ -1,105 +1,120 @@
-version: "2.0"
-
-intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - faq
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
-
-responses:
-  utter_greet:
-  - text: "Hey! I am your assitant at Virtual Record Treasury."
-  utter_What_I_can_do:
-  - text: "I am here to help you answer your questions about the virtual record treasury project, the history of the virtual record treasury building, the collection in it, the fire incident of 1922, and what was lost in it."
-  utter_ask_what_user_know:
-  - text : "So, Do you know anything about all this ?"
-  utter_ask_what_else:
-  - text : "What else you want to know?"
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_did_that_help:
-  - text: "Did that help you?"
-
-  utter_happy:
-  - text: "Great!!! please go ahead and ask if you have any specific questions for me."
-
-  utter_goodbye:
-  - text: "Bye"
-
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
-
-  utter_info:
-  - text: "Virtual Record Treasury of Ireland is being created as part of project 'Beyond 2022'. 'Beyond 2022' is an all-island and international collaborative research project working to create a virtual reconstruction of the Public Record Office of Ireland, which was destroyed in the opening engagement of the Civil War on June 30th, 1922. Here is the video you can watch to know more:"
-    attachment: {"type":'video',"payload":{ "src": "https://www.youtube.com/watch?v=uXQOluXftZU"}}
-  
-  utter_faq/archiveBuilt:
-  - text: "The Public Record Office of Ireland was built in the mid-1860s. The Record Treasury was purpose built to store Ireland's public records dating back 700 years. The building opened in 1867."
-  
-  utter_faq/aboutBuilding:
-  - text: "The front part of the building is where the public went to look at the archives. They sat at desks in a quiet reading room with an archivist making sure that nobody scribbled on the records or damaged them in any way. The staff working in the archive also had their offices in this front building, and the top floor was a family flat for J J Tucker, the Foreman Searcher. The tall building with the arched windows is the Record Treasury, where all the ancient records were stored. These huge windows and a glass roof made it very light inside so you did not need to use dangerous gas lamps or candles to read the documents. Six floors of metal shelves and walkways were filled with millions of historic records, and more were stored in the stone vaults beneath the floor. After the fire in 1922, a few bundles of papers were saved from these vaults, scorched but still legible. These are the only precious originals from the destroyed Public Record Office of Ireland. The front and back buildings do not touch, there is a gap, a fire-break, about 10 meters wide. This was to protect the papers in the Record Treasury from any fire that might break out in the front building with its coal fires, gas lamps, and pipe-smoking staff."
-  
-  utter_faq/recordDetails:
-  - text: "The shelves were crammed with records of Irish life from seven centuries. There were official details of court cases, and lists of soldiers, policemen, teachers, landlords, tenants, prisoners, and clergy. There were letters to and from the King in London, reports of rebellions, protests and disturbances,
-  and often the punishments given to those who took part. Land records were a major collection, not just buying and selling land, but land being seized from people who rebelled against the crown, and records of who got these lands afterward. There were tax and bankruptcy records and the and wills of wealthy people, as well as drawings and descriptions from people patenting new inventions. There were records of relief efforts during the Great Famine. Unusual stuff founds its way into the archive too. Letters from police informers, complaints from overworked clerks and thousands of requests from people hoping to claim the Old Age Pension when it started in 1909."
-   
-  utter_faq/virtualArchiveOwner:
-  - text: "The Virtual Record Treasury of Ireland is a project funded by the Government of Ireland as a legacy of the Decade of Centenaries commemorative program. It is an all-island and international project. We have five Core Partners, and over fifty-five other institutions are actively involved in virtually recreating what was lost in incidence 1922. You can find more information at (https://beyond2022.ie/?page_id=2#vision)"
-  
-  utter_faq/whereVirtualArchive:
-  - text: "You can search the Virtual Record Treasury of Ireland online at (https://beyond2022.ie/) infact you can view and interact with a 3D virtual model at (https://beyond2022.ie/?page_id=3058)"
-  
-  utter_faq/oldestRecord:
-  - text: "There was a document from 1174, which came from Christchurch cathedral here in Dublin, just two years after Henry the second of England came to Ireland."
-  utter_faq/whoWorked:
-  - text: "Around 25 people worked in the building every day. The head of the archive was known as the Deputy Keeper of the Public Records. He had an assistant called the Assistant Deputy Keeper. There were different departments in the archive with specialised workers. Archivists organised and translated documents. Bookbinders cleaned and repaired manuscripts and stitched them into secure book covers. Searchers climbed the shelves to find documents, and porters heaved heavy books and crates of records from department to department."
-  utter_faq/howManyRecords:
-  - text : "The Archive had six floors of metal shelves filled with millions of historic records, and more were stored in the stone vaults beneath the floor."
-  utter_faq/whatSurvived:
-  - text: "The fire of 1922 destroyed the whole Record Treasury, which was the large repository to the rear of the building. Fortunately, the Record House at the front of the building survived, although it was badly damaged during the fighting. The Record House was where the Reading Room was, and it contained many books with copies of records from the main repository. Over 25,000 sheets of paper and parchment also survived the fire, and these are slowly being conserved."
-  utter_faq/archiveModel:
-  - text: "We used the original architectural drawings from the 1860s as well as photographs from the early twentieth century to create the computer-generated model. The office files for the Public Record Office of Ireland also survive, and they tell us about details such as the wood that was used in the flooring. It was sycamore. You can actually see and intearact with the 3D model at (https://beyond2022.ie/?page_id=3058)"
-  utter_faq/whatCausedFire:
-  - text: "Disputes began immediately after the fire, about who was to blame. The National Army accused the Anti-Treaty forces of deliberately setting off a landmine to destroy the records and kill soldiers. The Anti-Treaty forces denied this, claiming that the artillery shelling caused the explosion. A century later it is impossible to be certain about the details of those final moments, but in any battle involving grenades and artillery shells, fragile paper and ancient scrolls are always going to be at risk."
-  utter_faq/whoUsedArchive:
-  - text: "The Public Record Office was open to all members of the public. Lawyers used the archive regularly to check legal cases. It was also used by people interested in local and family histories."
-  utter_faq/whyArchive:
-  - text: "The Public Record Office was established to protect Ireland's incredible archival heritage for future generations. The Office made astonishing advances in providing access to old records in its short history. They led school groups and published newspaper articles about the records. They published actively. The loss of the Public Record Office was one of the great tragedies of the Civil War."
-  utter_faq/valuableItem:
-  - text: "That's hard to say. The very fancy royal documents, with large colored images of the king and a big wax seal, would have been worth a lot of money. But I think the beautiful red leather bindings on the records of the Irish House of Lords, may have been worth more. Each book was over half a meter tall and was covered with gold leaf decorations and there were fifty of them!"
-  utter_faq/archiveOwner:
-  - text: "The archive was all the old papers and records of the civil service that ran Ireland under 700 years of English rule. So the government owned it - but because so many people were interested in the history contained in these old papers the archive was called the Public Record Office."
-  utter_faq/howManyKilled:
-  - text: "Nobody died in the fire but at least six men were killed in the battle that led to the fire"
-  utter_faq/whereRecordsNow:
-  - text: "The state records for Ireland are now kept at the National Archives, across the river at 8 Bishop Street. Of course, nowadays many records are also kept online."
-  utter_faq/aboutArchitect:
-  - text: "The architects were Enoch Trevor Owen and Robert John Stirling."
-  utter_faq/whatHappenedToRecords:
-  - text: "Some of the records were blown far away. There are reports that records were collected on the Hill of Howth, several miles north of Dublin. Many were found among the rubble and were badly damaged by rain and dampness having been left exposed for months after the battle. These records saved from the flames are being conserved so you can consult them in the future."
-  utter_faq/whatHappenedToOffice:
-  - text: "The building was damaged by fire during the Irish Civil War. On 28th June 1922, the Four Courts went up in flames after a huge explosion that sent a mushroom cloud up over the skies of Dublin. When the fire spread to the Record Treasury, the paper records started to burn quickly and the smoke poured out of the windows along the sides of the building. Within hours, the entire archive was burned and only a few documents survived the fire."
-  utter_faq/whereRecordOffice:
-  - text: "The Public Record Office of Ireland building is located in Dublin, Ireland, within the Four Courts, north of the Liffey."
-  utter_faq/currentArchive:
-  - text: "The front building now houses Court Number 7 of the Court of Appeals and looks completely different than it did when it contained the Search Room and Offices. The back building housing the Treasury was destroyed in the fire."
-  utter_faq/howFightFire:
-  - text: "The building had a supply of water and a fire extinguisher, but there were no facilities to suppress a fire on the scale of the flames of 1922 war engagement."
-  utter_faq/whereArchiveCameFrom:
-  - text: "The Public Record Office was founded in 1867. It was the first centralized archive for the state in Ireland. Before it was built, records were scattered across many locations around Ireland. These included Dublin Castle, the Four Courts, the Custom House, and cathedrals and towns across Ireland."
-  utter_faq/whyFourCourts:
-  - text: "There was a lot of debate about where the archive should be located in Dublin. Some people thought it should be beside Dublin Castle because the Castle was the center of the administration. The oldest records had been held in the Castle since the thirteenth century. In the end, the Four Courts were chosen as a brand new facility. The Four Courts were where most of the legal business happened, and lawyers often wanted to consult old documents as part of their legal work. Some streets and houses near the original Four Courts building had to be cleared in the late 1850s to make space for the new building work."
-  utter_faq/aboutBuildinglighting:
-  - text: "They had gas lights, which were a fire danger, as were the pipes employees smoked. The light in the Treasury was from the big windows to help prevent fire."
-  utter_please_rephrase:
-  - text: "I'm sorry, I can understand your question, but I don't know the exact answer right now. Although you can find more information and related links on our portal(https://beyond2022.ie/)."
-
+version: '2.0'
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+intents:
+- affirm
+- bot_challenge
+- deny
+- faq
+- goodbye
+- greet
+- mood_great
+- mood_unhappy
+- nlu_fallback
+responses:
+  utter_greet:
+  - text: Hey! I am your assistant at Virtual Record Treasury.
+  utter_What_I_can_do:
+  - text: I am here to help you answer your questions about the virtual record treasury project, the history of the virtual record treasury building, the collection in it, the fire incident of 1922, and what was lost in it.
+  utter_ask_what_user_know:
+  - text: So, Do you know anything about all this ?
+  utter_ask_what_else:
+  - text: What else you want to know?
+  utter_cheer_up:
+  - image: https://i.imgur.com/nGF1K8f.jpg
+    text: 'Here is something to cheer you up:'
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great!!! please go ahead and ask if you have any specific questions for me.
+  utter_goodbye:
+  - text: Thank you for visiting the Virtual Record Treasury. Goodbye!
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+  utter_info:
+  - attachment:
+      payload:
+        src: https://www.youtube.com/watch?v=uXQOluXftZU
+      type: video
+    text: "Virtual Record Treasury of Ireland is being created as part of project 'Beyond 2022'. 'Beyond 2022' is an all-island and international collaborative research project working to create a virtual reconstruction of the Public Record Office of Ireland, which was destroyed in the opening engagement of the Civil War on June 30th, 1922. Here is the video you can watch to know more:"
+  utter_faq/archiveBuilt:
+  - text: The Public Record Office of Ireland was built in the mid-1860s. The Record Treasury was purpose built to store Ireland's public records dating back 700 years. The building opened in 1867.
+  utter_faq/aboutBuilding:
+  - text: The front part of the building is where the public went to look at the archives. They sat at desks in a quiet reading room with an archivist making sure that nobody scribbled on the records or damaged them in any way. The staff working in the archive also had their offices in this front building, and the top floor was a family flat for J J Tucker, the Foreman Searcher. The tall building with the arched windows is the Record Treasury, where all the ancient records were stored. These huge windows and a glass roof made it very light inside so you did not need to use dangerous gas lamps or candles to read the documents. Six floors of metal shelves and walkways were filled with millions of historic records, and more were stored in the stone vaults beneath the floor. After the fire in 1922, a few bundles of papers were saved from these vaults, scorched but still legible. These are the only precious originals from the destroyed Public Record Office of Ireland. The front and back buildings do not touch, there is a gap, a fire-break, about 10 meters wide. This was to protect the papers in the Record Treasury from any fire that might break out in the front building with its coal fires, gas lamps, and pipe-smoking staff.
+  utter_faq/virtualArchiveOwner:
+  - text: The Virtual Record Treasury of Ireland is a project funded by the Government of Ireland as a legacy of the Decade of Centenaries commemorative program. It is an all-island and international project. We have five Core Partners, and over fifty-five other institutions are actively involved in virtually recreating what was lost in incidence 1922. You can find more information at (https://beyond2022.ie/?page_id=2#vision)
+  utter_faq/whereVirtualArchive:
+  - text: You can search the Virtual Record Treasury of Ireland online at (https://beyond2022.ie/) infact you can view and interact with a 3D virtual model at (https://beyond2022.ie/?page_id=3058)
+  utter_faq/oldestRecord:
+  - text: There was a document from 1174, which came from Christchurch cathedral here in Dublin, just two years after Henry the second of England came to Ireland.
+  utter_faq/whoWorked:
+  - text: Around 25 people worked in the building every day. The head of the archive was known as the Deputy Keeper of the Public Records. He had an assistant called the Assistant Deputy Keeper. There were different departments in the archive with specialised workers. Archivists organised and translated documents. Bookbinders cleaned and repaired manuscripts and stitched them into secure book covers. Searchers climbed the shelves to find documents, and porters heaved heavy books and crates of records from department to department.
+  utter_faq/howManyRecords:
+  - text: The Archive had six floors of metal shelves filled with millions of historic records, and more were stored in the stone vaults beneath the floor.
+  utter_faq/whatSurvived:
+  - text: The fire of 1922 destroyed the whole Record Treasury, which was the large repository to the rear of the building. Fortunately, the Record House at the front of the building survived, although it was badly damaged during the fighting. The Record House was where the Reading Room was, and it contained many books with copies of records from the main repository. Over 25,000 sheets of paper and parchment also survived the fire, and these are slowly being conserved.
+  utter_faq/archiveModel:
+  - text: We used the original architectural drawings from the 1860s as well as photographs from the early twentieth century to create the computer-generated model. The office files for the Public Record Office of Ireland also survive, and they tell us about details such as the wood that was used in the flooring. It was sycamore. You can actually see and intearact with the 3D model at (https://beyond2022.ie/?page_id=3058)
+  utter_faq/whatCausedFire:
+  - text: Disputes began immediately after the fire, about who was to blame. The National Army accused the Anti-Treaty forces of deliberately setting off a landmine to destroy the records and kill soldiers. The Anti-Treaty forces denied this, claiming that the artillery shelling caused the explosion. A century later it is impossible to be certain about the details of those final moments, but in any battle involving grenades and artillery shells, fragile paper and ancient scrolls are always going to be at risk.
+  utter_faq/whoUsedArchive:
+  - text: The Public Record Office was open to all members of the public. Lawyers used the archive regularly to check legal cases. It was also used by people interested in local and family histories.
+  utter_faq/whyArchive:
+  - text: The Public Record Office was established to protect Ireland's incredible archival heritage for future generations. The Office made astonishing advances in providing access to old records in its short history. They led school groups and published newspaper articles about the records. They published actively. The loss of the Public Record Office was one of the great tragedies of the Civil War.
+  utter_faq/valuableItem:
+  - text: That's hard to say. The very fancy royal documents, with large colored images of the king and a big wax seal, would have been worth a lot of money. But I think the beautiful red leather bindings on the records of the Irish House of Lords, may have been worth more. Each book was over half a meter tall and was covered with gold leaf decorations and there were fifty of them!
+  utter_faq/archiveOwner:
+  - text: The archive was all the old papers and records of the civil service that ran Ireland under 700 years of English rule. So the government owned it - but because so many people were interested in the history contained in these old papers the archive was called the Public Record Office.
+  utter_faq/howManyKilled:
+  - text: Nobody died in the fire but at least six men were killed in the battle that led to the fire
+  utter_faq/whereRecordsNow:
+  - text: The state records for Ireland are now kept at the National Archives, across the river at 8 Bishop Street. Of course, nowadays many records are also kept online.
+  utter_faq/aboutArchitect:
+  - text: The architects were Enoch Trevor Owen and Robert John Stirling.
+  utter_faq/whatHappenedToRecords:
+  - text: Some of the records were blown far away. There are reports that records were collected on the Hill of Howth, several miles north of Dublin. Many were found among the rubble and were badly damaged by rain and dampness having been left exposed for months after the battle. These records saved from the flames are being conserved so you can consult them in the future.
+  utter_faq/whatHappenedToOffice:
+  - text: The building was damaged by fire during the Irish Civil War. On 28th June 1922, the Four Courts went up in flames after a huge explosion that sent a mushroom cloud up over the skies of Dublin. When the fire spread to the Record Treasury, the paper records started to burn quickly and the smoke poured out of the windows along the sides of the building. Within hours, the entire archive was burned and only a few documents survived the fire.
+  utter_faq/whereRecordOffice:
+  - text: The Public Record Office of Ireland building was located in Dublin, Ireland, within the Four Courts, north of the Liffey.
+  utter_faq/currentArchive:
+  - text: The front building now houses Court Number 7 of the Court of Appeals and looks completely different than it did when it contained the Search Room and Offices. The back building housing the Treasury was destroyed in the fire.
+  utter_faq/howFightFire:
+  - text: The building had a supply of water and a fire extinguisher, but there were no facilities to suppress a fire on the scale of the flames of 1922 war engagement.
+  utter_faq/whereArchiveCameFrom:
+  - text: The Public Record Office was founded in 1867. It was the first centralized archive for the state in Ireland. Before it was built, records were scattered across many locations around Ireland. These included Dublin Castle, the Four Courts, the Custom House, and cathedrals and towns across Ireland.
+  utter_faq/whyFourCourts:
+  - text: There was a lot of debate about where the archive should be located in Dublin. Some people thought it should be beside Dublin Castle because the Castle was the center of the administration. The oldest records had been held in the Castle since the thirteenth century. In the end, the Four Courts were chosen as a brand new facility. The Four Courts were where most of the legal business happened, and lawyers often wanted to consult old documents as part of their legal work. Some streets and houses near the original Four Courts building had to be cleared in the late 1850s to make space for the new building work.
+  utter_faq/aboutBuildinglighting:
+  - text: They had gas lights, which were a fire danger, as were the pipes employees smoked. The light in the Treasury was from the big windows to help prevent fire.
+  utter_please_rephrase:
+  - text: I'm sorry, I can understand your question, but I don't know the exact answer right now. Although you can find more information and related links on our portal(https://beyond2022.ie/).
+  utter_faq/recordDetails:
+  - text: 'The Record Treasury brings together information from over seventy different archives, libraries, historical societies and other groups. The historical sources range in date from approximately 1200 to 1900—seven centuries of Irish history. There are three main types of information: Digital images, Detailed descriptions, and Basic descriptions. For more information, see our User’s Guide.'
+  utter_faq/whenFire:
+  - text: The fire began on the 30th of June, 1922.
+  utter_faq/archiveARModel:
+  - text: On this page, you can see a reconstructed virtual tour of the Public Records Office. https://vrtour.virtualtreasury.ie/
+  utter_faq/fireLoss:
+  - text: There were charters, census records, workhouse records, exchequer records and many other kinds of records that were lost in the fire.
+  utter_faq/howManyVirtualRecords:
+  - text: The Treasury’s collection of 50 million words of text, 150,000 records and more than 6,000 maps spanning an arc of Irish history from 1174 right up to 1922.
+  utter_faq/recordRestore:
+  - text: A dedicated team at the National Archives of Ireland is painstakingly conserving the surviving documents. See the article by  Zoë Reid, Senior Conservator, National Archives of Ireland, 'Unwrapping the past' for more information about that difficult process.
+  utter_faq/whereRecordOfficeNow:
+  - text: The National Archive of Ireland is located on Bishop Street in Dublin City Centre.
+  utter_faq/searchRecords:
+  - text: On this page, you will find helpful videos about how to perform searches. It also has some research guides. https://virtualtreasury.ie/help
+  utter_faq/seeVR:
+  - text: You do not need vr googles, headset, or any other device to experience the virtual reconstruction of the Public Records Office.
+  utter_faq/archiveTimeCost:
+  - text: The Virtual Treasury is open online 24 hours a day, 365 days a year. It is freely available.
+  utter_faq/howToUse:
+  - text: All you need is a web browser—and visit a link https://vrtour.virtualtreasury.ie/ . You do not require a virtual reality headset. The tour will work best over high-speed broadband, but it will also load on mobile. Give the virtual model a moment to load after you enter the scene. Older computers may experience difficulties loading the virtual model.
+  utter_faq/archiveReplaced:
+  - text: The replacement items for the Virtual Treasury came from all over the world. Archives in the United States, the National Archive in London, the National Archive of Ireland and many more!
+  utter_faq/offlineArchive:
+  - text: Yes, The National Archives of Ireland is on Bishop Street in Dublin City Centre. But a digital reconstruction of some of the lost items is available on the Virtual Treasury website.
+  utter_faq/howRecordsDigitized:
+  - text: The Virtual Record treasury is working with archives all around the world to try to find replacements for what was lost and digitise records and make them publically available online. The Virtual Treasury is also working with the National Archives of Ireland to conserve lost records.

@@ -34,7 +34,10 @@
 
 # Event broker which all conversation events should be streamed to.
 # https://rasa.com/docs/rasa/event-brokers
-
+event_broker:
+  type: SQL
+  dialect: sqlite
+  db: events.db
 #event_broker:
 #  url: localhost
 #  username: username
