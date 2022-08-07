@@ -45,7 +45,7 @@ responses:
   utter_faq/virtualArchiveOwner:
   - text: The Virtual Record Treasury of Ireland is a project funded by the Government of Ireland as a legacy of the Decade of Centenaries commemorative program. It is an all-island and international project. We have five Core Partners, and over fifty-five other institutions are actively involved in virtually recreating what was lost in incidence 1922. You can find more information at (https://beyond2022.ie/?page_id=2#vision)
   utter_faq/whereVirtualArchive:
-  - text: You can search the Virtual Record Treasury of Ireland online at (https://beyond2022.ie/) infact you can view and interact with a 3D virtual model at (https://beyond2022.ie/?page_id=3058)
+  - text: You can find the Virtual Record Treasury of Ireland online at (https://beyond2022.ie/) infact you can view and interact with a 3D virtual model at (https://beyond2022.ie/?page_id=3058)
   utter_faq/oldestRecord:
   - text: There was a document from 1174, which came from Christchurch cathedral here in Dublin, just two years after Henry the second of England came to Ireland.
   utter_faq/whoWorked:
@@ -109,12 +109,22 @@ responses:
   utter_faq/seeVR:
   - text: You do not need vr googles, headset, or any other device to experience the virtual reconstruction of the Public Records Office.
   utter_faq/archiveTimeCost:
-  - text: The Virtual Treasury is open online 24 hours a day, 365 days a year. It is freely available.
+  - text: The Virtual Treasury is open online 24 hours a day, 365 days a year. It is open to the public and freely available. It is a great resource for students, researchers, genealogists or just the curious!
   utter_faq/howToUse:
-  - text: All you need is a web browser—and visit a link https://vrtour.virtualtreasury.ie/ . You do not require a virtual reality headset. The tour will work best over high-speed broadband, but it will also load on mobile. Give the virtual model a moment to load after you enter the scene. Older computers may experience difficulties loading the virtual model.
+  - text: All you need is a web browser—and visit a link https://vrtour.virtualtreasury.ie/ . You do not need to create any credentials or account. Also, you do not require a virtual reality headset. The tour will work best over high-speed broadband, but it will also load on mobile. Give the virtual model a moment to load after you enter the scene. Older computers may experience difficulties loading the virtual model.
   utter_faq/archiveReplaced:
   - text: The replacement items for the Virtual Treasury came from all over the world. Archives in the United States, the National Archive in London, the National Archive of Ireland and many more!
   utter_faq/offlineArchive:
   - text: Yes, The National Archives of Ireland is on Bishop Street in Dublin City Centre. But a digital reconstruction of some of the lost items is available on the Virtual Treasury website.
   utter_faq/howRecordsDigitized:
   - text: The Virtual Record treasury is working with archives all around the world to try to find replacements for what was lost and digitise records and make them publically available online. The Virtual Treasury is also working with the National Archives of Ireland to conserve lost records.
+  utter_faq/addNewRecord:
+  - text: If you have a query or would like to add a record, you can contact us on the website and let us know what you have found.  https://virtualtreasury.ie/contact-us
+  utter_faq/howManyDigitized:
+  - text: No—the work is just beginning! And many relevant records are not suitable for digitization at this stage. To date, we have included over 50M words of text-searchable content replacing or supplementing archives destroyed in 1922. As new replacements are identified and, where appropriate, digitized, we will add them to the Virtual Treasury. Keep an eye on our news feeds for updates!
+  utter_faq/generalRecords:
+  - text: The General Registry Office was a separate institution from the Public Record Office of Ireland. There are many birth, death and marriage records available through the free website irishgenealogy.ie
+  utter_faq/whatLost:
+  - text: A catalogue, created by Beyond 2022, of the contents of the PROI. The spine of the Inventory of Loss is Herbert Wood’s Guide to the Contents of the Public Record Office (1919), supplemented by the ‘Transfer and Increment Books’ which record the accessioning of archives by the PROI from the 1860s onwards. These data have been structured into an electronic database by Beyond 2022.
+  utter_faq/projectPartners:
+  - text: 'The five core archival partners, whose participation in the Project is critical to its success, are detailed below: The National Archives of Ireland, The Irish Manuscripts Commission, The National Archives UK, The Public Record Office of Northern Ireland, The Library, Trinity College Dublin'
