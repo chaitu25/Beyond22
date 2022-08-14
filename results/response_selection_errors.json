@@ -1,0 +1,266 @@
+[
+  {
+    "text": "who burnt the archive",
+    "intent_response_key_target": "faq/whatCausedFire",
+    "intent_response_key_prediction": {
+      "name": "faq/archiveOwner",
+      "confidence": 0.523047924041748
+    }
+  },
+  {
+    "text": "where can i find the ar model of the archive?",
+    "intent_response_key_target": "faq/archiveARModel",
+    "intent_response_key_prediction": {
+      "name": "faq/recordDetails",
+      "confidence": 0.3415871858596802
+    }
+  },
+  {
+    "text": "I want to find a record in a virtual archive",
+    "intent_response_key_target": "faq/searchRecords",
+    "intent_response_key_prediction": {
+      "name": "faq/howToUse",
+      "confidence": 0.18181894719600677
+    }
+  },
+  {
+    "text": "how can you recreate the record treasury?",
+    "intent_response_key_target": "faq/howRecordsDigitized",
+    "intent_response_key_prediction": {
+      "name": "faq/recordDetails",
+      "confidence": 0.23761264979839325
+    }
+  },
+  {
+    "text": "can you list the records of the treasury?",
+    "intent_response_key_target": "faq/recordDetails",
+    "intent_response_key_prediction": {
+      "name": "faq/searchRecords",
+      "confidence": 0.13541936874389648
+    }
+  },
+  {
+    "text": "how was the fire caught in record treasury in 1922?",
+    "intent_response_key_target": "faq/whatCausedFire",
+    "intent_response_key_prediction": {
+      "name": "faq/fireLoss",
+      "confidence": 0.19234596192836761
+    }
+  },
+  {
+    "text": "did anybody died in fire incidence",
+    "intent_response_key_target": "faq/howManyKilled",
+    "intent_response_key_prediction": {
+      "name": "faq/whatCausedFire",
+      "confidence": 0.2687624394893646
+    }
+  },
+  {
+    "text": "what did they do when the fire started",
+    "intent_response_key_target": "faq/howFightFire",
+    "intent_response_key_prediction": {
+      "name": "faq/whatCausedFire",
+      "confidence": 0.32365986704826355
+    }
+  },
+  {
+    "text": "can I visit the website at any time ?",
+    "intent_response_key_target": "faq/archiveTimeCost",
+    "intent_response_key_prediction": {
+      "name": "faq/searchRecords",
+      "confidence": 0.41745683550834656
+    }
+  },
+  {
+    "text": "is virtual archive always open",
+    "intent_response_key_target": "faq/archiveTimeCost",
+    "intent_response_key_prediction": {
+      "name": "faq/whereVirtualArchive",
+      "confidence": 0.4408477544784546
+    }
+  },
+  {
+    "text": "do you have a way to see the archive in real ?",
+    "intent_response_key_target": "faq/offlineArchive",
+    "intent_response_key_prediction": {
+      "name": "faq/recordDetails",
+      "confidence": 0.1622038334608078
+    }
+  },
+  {
+    "text": "who made this virtual archive?",
+    "intent_response_key_target": "faq/virtualArchiveOwner",
+    "intent_response_key_prediction": {
+      "name": "faq/whereVirtualArchive",
+      "confidence": 0.39649155735969543
+    }
+  },
+  {
+    "text": "how did the fire start",
+    "intent_response_key_target": "faq/whatCausedFire",
+    "intent_response_key_prediction": {
+      "name": "faq/whenFire",
+      "confidence": 0.567577600479126
+    }
+  },
+  {
+    "text": "who blew up the building",
+    "intent_response_key_target": "faq/whatCausedFire",
+    "intent_response_key_prediction": {
+      "name": "faq/archiveOwner",
+      "confidence": 0.23743270337581635
+    }
+  },
+  {
+    "text": "where are the records kept now",
+    "intent_response_key_target": "faq/whereRecordsNow",
+    "intent_response_key_prediction": {
+      "name": "faq/whereRecordOfficeNow",
+      "confidence": 0.3815392851829529
+    }
+  },
+  {
+    "text": "why was the original building destroyed",
+    "intent_response_key_target": "faq/whyFourCourts",
+    "intent_response_key_prediction": {
+      "name": "faq/whatCausedFire",
+      "confidence": 0.45978131890296936
+    }
+  },
+  {
+    "text": "where is the national archive building currently?",
+    "intent_response_key_target": "faq/whereRecordOfficeNow",
+    "intent_response_key_prediction": {
+      "name": "faq/searchRecords",
+      "confidence": 0.25311487913131714
+    }
+  },
+  {
+    "text": "what does the virtual treasury cost to use?",
+    "intent_response_key_target": "faq/archiveTimeCost",
+    "intent_response_key_prediction": {
+      "name": "faq/howToUse",
+      "confidence": 0.5409790873527527
+    }
+  },
+  {
+    "text": "how does the virtual record treasury manage to recover the lost records?",
+    "intent_response_key_target": "faq/howRecordsDigitized",
+    "intent_response_key_prediction": {
+      "name": "faq/recordRestore",
+      "confidence": 0.7021225690841675
+    }
+  },
+  {
+    "text": "who kept records?",
+    "intent_response_key_target": "faq/archiveOwner",
+    "intent_response_key_prediction": {
+      "name": "faq/whereRecordsNow",
+      "confidence": 0.621331512928009
+    }
+  },
+  {
+    "text": "Do we have a AR representation of the same as shown in video ?",
+    "intent_response_key_target": "faq/archiveARModel",
+    "intent_response_key_prediction": {
+      "name": "faq/whereRecordOffice",
+      "confidence": 0.16243992745876312
+    }
+  },
+  {
+    "text": "show me the model in the archive?",
+    "intent_response_key_target": "faq/archiveARModel",
+    "intent_response_key_prediction": {
+      "name": "faq/archiveModel",
+      "confidence": 0.6321930885314941
+    }
+  },
+  {
+    "text": "where is the archive building?",
+    "intent_response_key_target": "faq/whereRecordOfficeNow",
+    "intent_response_key_prediction": {
+      "name": "faq/whereRecordOffice",
+      "confidence": 0.6093450784683228
+    }
+  },
+  {
+    "text": "can i visit the archive in person?",
+    "intent_response_key_target": "faq/offlineArchive",
+    "intent_response_key_prediction": {
+      "name": "faq/recordDetails",
+      "confidence": 0.26002275943756104
+    }
+  },
+  {
+    "text": "Can I add a new record in archive?",
+    "intent_response_key_target": "faq/addNewRecord",
+    "intent_response_key_prediction": {
+      "name": "faq/whereRecordOfficeNow",
+      "confidence": 0.2515506446361542
+    }
+  },
+  {
+    "text": "how did the public record office work?",
+    "intent_response_key_target": "faq/archiveOwner",
+    "intent_response_key_prediction": {
+      "name": "faq/whoWorked",
+      "confidence": 0.4854133427143097
+    }
+  },
+  {
+    "text": "did many people use the records",
+    "intent_response_key_target": "faq/whoUsedArchive",
+    "intent_response_key_prediction": {
+      "name": "faq/whatCausedFire",
+      "confidence": 0.20127011835575104
+    }
+  },
+  {
+    "text": "when the fire happened?",
+    "intent_response_key_target": "faq/whenFire",
+    "intent_response_key_prediction": {
+      "name": "faq/whatHappenedToRecords",
+      "confidence": 0.7969607710838318
+    }
+  },
+  {
+    "text": "How are you recovering records",
+    "intent_response_key_target": "faq/recordRestore",
+    "intent_response_key_prediction": {
+      "name": "faq/howManyVirtualRecords",
+      "confidence": 0.17380544543266296
+    }
+  },
+  {
+    "text": "How much time can I spend there ?",
+    "intent_response_key_target": "faq/archiveTimeCost",
+    "intent_response_key_prediction": {
+      "name": "faq/whatCausedFire",
+      "confidence": 0.45995810627937317
+    }
+  },
+  {
+    "text": "where did the copies of archive come from?",
+    "intent_response_key_target": "faq/archiveReplaced",
+    "intent_response_key_prediction": {
+      "name": "faq/whereArchiveCameFrom",
+      "confidence": 0.2596930265426636
+    }
+  },
+  {
+    "text": "What are you doing with them ?",
+    "intent_response_key_target": "faq/howRecordsDigitized",
+    "intent_response_key_prediction": {
+      "name": "faq/recordDetails",
+      "confidence": 0.6602981686592102
+    }
+  },
+  {
+    "text": "how is the digital storage of the documents done?",
+    "intent_response_key_target": "faq/howRecordsDigitized",
+    "intent_response_key_prediction": {
+      "name": "faq/whereVirtualArchive",
+      "confidence": 0.2669581174850464
+    }
+  }
+]
