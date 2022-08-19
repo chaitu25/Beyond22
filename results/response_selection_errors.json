@@ -1,0 +1,314 @@
+[
+  {
+    "text": "how did the public record office work?",
+    "intent_response_key_target": "faq/archiveOwner",
+    "intent_response_key_prediction": {
+      "name": "faq/archiveBuilt",
+      "confidence": 0.3014686703681946
+    }
+  },
+  {
+    "text": "can you list the records of the treasury?",
+    "intent_response_key_target": "faq/recordDetails",
+    "intent_response_key_prediction": {
+      "name": "faq/whatLost",
+      "confidence": 0.1986866593360901
+    }
+  },
+  {
+    "text": "did the blueshirts burn the archive",
+    "intent_response_key_target": "faq/whatCausedFire",
+    "intent_response_key_prediction": {
+      "name": "faq/archiveBuilt",
+      "confidence": 0.21724309027194977
+    }
+  },
+  {
+    "text": "how does the virtual record treasury manage to recover the lost records?",
+    "intent_response_key_target": "faq/howRecordsDigitized",
+    "intent_response_key_prediction": {
+      "name": "faq/howManyVirtualRecords",
+      "confidence": 0.2728247344493866
+    }
+  },
+  {
+    "text": "who made this virtual archive?",
+    "intent_response_key_target": "faq/virtualArchiveOwner",
+    "intent_response_key_prediction": {
+      "name": "faq/whereVirtualArchive",
+      "confidence": 0.30838775634765625
+    }
+  },
+  {
+    "text": "I want to know what type of public records are stored in the Treasury ?",
+    "intent_response_key_target": "faq/recordDetails",
+    "intent_response_key_prediction": {
+      "name": "faq/searchRecords",
+      "confidence": 0.20896278321743011
+    }
+  },
+  {
+    "text": "did many people use the records",
+    "intent_response_key_target": "faq/whoUsedArchive",
+    "intent_response_key_prediction": {
+      "name": "faq/whoWorked",
+      "confidence": 0.29089441895484924
+    }
+  },
+  {
+    "text": "where are the records kept now",
+    "intent_response_key_target": "faq/whereRecordsNow",
+    "intent_response_key_prediction": {
+      "name": "faq/whereRecordOfficeNow",
+      "confidence": 0.6357585787773132
+    }
+  },
+  {
+    "text": "what did they do when the fire started",
+    "intent_response_key_target": "faq/howFightFire",
+    "intent_response_key_prediction": {
+      "name": "faq/whatCausedFire",
+      "confidence": 0.5302276611328125
+    }
+  },
+  {
+    "text": "why was the original building destroyed",
+    "intent_response_key_target": "faq/whyFourCourts",
+    "intent_response_key_prediction": {
+      "name": "faq/whatCausedFire",
+      "confidence": 0.7399628162384033
+    }
+  },
+  {
+    "text": "show me the model in the archive?",
+    "intent_response_key_target": "faq/archiveARModel",
+    "intent_response_key_prediction": {
+      "name": "faq/archiveModel",
+      "confidence": 0.1784830242395401
+    }
+  },
+  {
+    "text": "where can i find the ar model of the archive?",
+    "intent_response_key_target": "faq/archiveARModel",
+    "intent_response_key_prediction": {
+      "name": "faq/whereRecordOfficeNow",
+      "confidence": 0.2481078803539276
+    }
+  },
+  {
+    "text": "where is the archive building?",
+    "intent_response_key_target": "faq/whereRecordOfficeNow",
+    "intent_response_key_prediction": {
+      "name": "faq/whereRecordOffice",
+      "confidence": 0.5579575896263123
+    }
+  },
+  {
+    "text": "Great, do I need any user id and password created to use the Virtual Record Treasury ?",
+    "intent_response_key_target": "faq/howToUse",
+    "intent_response_key_prediction": {
+      "name": "faq/virtualArchiveOwner",
+      "confidence": 0.25111350417137146
+    }
+  },
+  {
+    "text": "do you have a way to see the archive in real ?",
+    "intent_response_key_target": "faq/offlineArchive",
+    "intent_response_key_prediction": {
+      "name": "faq/archiveTimeCost",
+      "confidence": 0.1594516634941101
+    }
+  },
+  {
+    "text": "how to we know what was lost in fire ?",
+    "intent_response_key_target": "faq/whatLost",
+    "intent_response_key_prediction": {
+      "name": "faq/fireLoss",
+      "confidence": 0.6174048781394958
+    }
+  },
+  {
+    "text": "where is the digital treasury?",
+    "intent_response_key_target": "faq/whereVirtualArchive",
+    "intent_response_key_prediction": {
+      "name": "faq/whereRecordOfficeNow",
+      "confidence": 0.21274933218955994
+    }
+  },
+  {
+    "text": "who burnt the archive",
+    "intent_response_key_target": "faq/whatCausedFire",
+    "intent_response_key_prediction": {
+      "name": "faq/archiveOwner",
+      "confidence": 0.45822933316230774
+    }
+  },
+  {
+    "text": "did anybody died in fire incidence",
+    "intent_response_key_target": "faq/howManyKilled",
+    "intent_response_key_prediction": {
+      "name": "faq/whatCausedFire",
+      "confidence": 0.3070719242095947
+    }
+  },
+  {
+    "text": "when did the fire start?",
+    "intent_response_key_target": "faq/whenFire",
+    "intent_response_key_prediction": {
+      "name": "faq/whatCausedFire",
+      "confidence": 0.5134168863296509
+    }
+  },
+  {
+    "text": "can i visit the archives?",
+    "intent_response_key_target": "faq/offlineArchive",
+    "intent_response_key_prediction": {
+      "name": "faq/whyArchive",
+      "confidence": 0.4293452799320221
+    }
+  },
+  {
+    "text": "What are you doing with them ?",
+    "intent_response_key_target": "faq/howRecordsDigitized",
+    "intent_response_key_prediction": {
+      "name": "faq/recordDetails",
+      "confidence": 0.6138790249824524
+    }
+  },
+  {
+    "text": "how is the digital storage of the documents done?",
+    "intent_response_key_target": "faq/howRecordsDigitized",
+    "intent_response_key_prediction": {
+      "name": "faq/generalRecords",
+      "confidence": 0.2576236128807068
+    }
+  },
+  {
+    "text": "when did the fire actually take place?",
+    "intent_response_key_target": "faq/whenFire",
+    "intent_response_key_prediction": {
+      "name": "faq/whatCausedFire",
+      "confidence": 0.4629038870334625
+    }
+  },
+  {
+    "text": "how do we preserve records?",
+    "intent_response_key_target": "faq/recordRestore",
+    "intent_response_key_prediction": {
+      "name": "faq/whyArchive",
+      "confidence": 0.38902562856674194
+    }
+  },
+  {
+    "text": "I want to find a record in a virtual archive",
+    "intent_response_key_target": "faq/searchRecords",
+    "intent_response_key_prediction": {
+      "name": "faq/howToUse",
+      "confidence": 0.1897444874048233
+    }
+  },
+  {
+    "text": "can I visit the website at any time ?",
+    "intent_response_key_target": "faq/archiveTimeCost",
+    "intent_response_key_prediction": {
+      "name": "faq/offlineArchive",
+      "confidence": 0.4786034822463989
+    }
+  },
+  {
+    "text": "what is required to access the archive model ?",
+    "intent_response_key_target": "faq/howToUse",
+    "intent_response_key_prediction": {
+      "name": "faq/archiveARModel",
+      "confidence": 0.2792570888996124
+    }
+  },
+  {
+    "text": "is there a way to find a death record in a digital archives?",
+    "intent_response_key_target": "faq/generalRecords",
+    "intent_response_key_prediction": {
+      "name": "faq/searchRecords",
+      "confidence": 0.17694871127605438
+    }
+  },
+  {
+    "text": "when did the archive morph to what it was created?",
+    "intent_response_key_target": "faq/archiveBuilt",
+    "intent_response_key_prediction": {
+      "name": "faq/offlineArchive",
+      "confidence": 0.15299056470394135
+    }
+  },
+  {
+    "text": "when was the archive created?",
+    "intent_response_key_target": "faq/archiveBuilt",
+    "intent_response_key_prediction": {
+      "name": "faq/virtualArchiveOwner",
+      "confidence": 0.1967286616563797
+    }
+  },
+  {
+    "text": "who blew up the building",
+    "intent_response_key_target": "faq/whatCausedFire",
+    "intent_response_key_prediction": {
+      "name": "faq/archiveOwner",
+      "confidence": 0.3865039050579071
+    }
+  },
+  {
+    "text": "when the fire happened?",
+    "intent_response_key_target": "faq/whenFire",
+    "intent_response_key_prediction": {
+      "name": "faq/whatHappenedToRecords",
+      "confidence": 0.5107542872428894
+    }
+  },
+  {
+    "text": "how many records you have now ?",
+    "intent_response_key_target": "faq/howManyVirtualRecords",
+    "intent_response_key_prediction": {
+      "name": "faq/generalRecords",
+      "confidence": 0.19327297806739807
+    }
+  },
+  {
+    "text": "is it open to public?",
+    "intent_response_key_target": "faq/archiveTimeCost",
+    "intent_response_key_prediction": {
+      "name": "faq/whyArchive",
+      "confidence": 0.23110394179821014
+    }
+  },
+  {
+    "text": "what do i need to use virtual record treasury?",
+    "intent_response_key_target": "faq/howToUse",
+    "intent_response_key_prediction": {
+      "name": "faq/whereVirtualArchive",
+      "confidence": 0.27833738923072815
+    }
+  },
+  {
+    "text": "what do i need to see virtual archives?",
+    "intent_response_key_target": "faq/howToUse",
+    "intent_response_key_prediction": {
+      "name": "faq/seeVR",
+      "confidence": 0.3593525290489197
+    }
+  },
+  {
+    "text": "Can I add a new record in archive?",
+    "intent_response_key_target": "faq/addNewRecord",
+    "intent_response_key_prediction": {
+      "name": "faq/whereArchiveCameFrom",
+      "confidence": 0.29225218296051025
+    }
+  },
+  {
+    "text": "how can you recreate the record treasury?",
+    "intent_response_key_target": "faq/howRecordsDigitized",
+    "intent_response_key_prediction": {
+      "name": "faq/recordDetails",
+      "confidence": 0.16151438653469086
+    }
+  }
+]
