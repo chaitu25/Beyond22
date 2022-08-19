@@ -13,6 +13,8 @@ import uuid
 import sqlite3
 app = FastAPI()
 
+# Wizard Of Oz Middleware
+
 RASAURL = "http://localhost:5005/webhooks/rest/webhook/"
 app.add_middleware(
     CORSMiddleware,
@@ -31,8 +33,7 @@ class RasaResponse:
             for ut in utterances:
                 self.response_json.append({"recipient_id": id, "text": ut})
         except:
-            print("Bad rasa response")
-            # traceback.print_exc()
+            print("Invalid rasa response")
             self.response_json = []
             return
 
@@ -102,7 +103,6 @@ class ConnectionManager:
     def disconnect(self, websocket: WebSocket):
         for wid, wizard_info in self.active_wizards.items():
             if wizard_info.websocket == websocket:
-                # also delete the wizard_info.incoming_queue here
                 self.active_wizards.pop(wid)
                 print("Wizard with id {} has disconnected".format(
                     wizard_info.wizard_id))
@@ -117,18 +117,6 @@ class ConnectionManager:
     def addClient(self, client_id):
         if client_id not in self.clients:
             self.clients.add(client_id)
-
-    async def send_personal_message(self, message: str, websocket: WebSocket):
-        await websocket.send_text(message)
-
-    def renew_keep_alive(self, client_id):
-        print("Renewing keepaline for client {}...".format(client_id))
-        if client_id in self.assigned_clients:
-            self.assigned_clients[client_id].last_connection_time = dt.now()
-        else:
-            print("No need to renew time for a client that is not assigend to wizard.")
-
-        return
 
 
 manager = ConnectionManager()
@@ -183,7 +171,6 @@ async def post(msg: RasaClientMessage):
                 'INSERT INTO trainingData(Message,Response,Expert_Response) VALUES (?,?,?);', (res['message'], res['response'], str(wizard_res_dict)))
             con.commit()
             print('New Data Recorded')
-            # print("For client {} we got {}".format(msg.sender, wizard_json))
         except Exception as e:
             print('error = ', e)
         finally:
@@ -212,24 +199,15 @@ async def speech_to_text(websocket: WebSocket):
         while True:
             new_message = await websocket.receive_text()
             print(new_message)
-        # Shutdown is an example; as of now no such message is sent by the clients
-            # if new_message != "SHUTDOWN":
-            # TODO: ensure message has the correct form
-            # expecting json of form
-            # {'client_id': client_id,
-            #  'response': response} a string containing an integer
             await wizard_info.incoming_queue.put(new_message)
     except WebSocketDisconnect:
         print("Connection closed")
-    # traceback.print_exc()
         manager.disconnect(websocket)
     except websockets.exceptions.ConnectionClosedError:
         print("Connection closed")
-    # traceback.print_exc()
         manager.disconnect(websocket)
         return
 
 
 def extract_user_id(response_dict):
-    # more than one messages consists of the prompted message to the user
     return response_dict[0]["recipient_id"]
