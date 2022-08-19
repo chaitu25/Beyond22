@@ -24,8 +24,6 @@ app.add_middleware(
 
 class RasaResponse:
     def __init__(self, response):
-        # input :
-        # a list of { "recipient_id": id, "text": msg} dicts
         try:
             self.response_json = []
             id = response[0]['recipient_id']

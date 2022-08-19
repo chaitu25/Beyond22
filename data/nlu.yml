@@ -1056,6 +1056,7 @@ nlu:
     - can I visit the website at any time ?
     - how much does it cost for the virtual treasury to access?
     - is virtual archive always open
+    - is it open to public?
 - intent: faq/howToUse
   examples: |
     - what do i need to go on a virtual tour ?
@@ -1090,6 +1091,7 @@ nlu:
     - can you visit the archive physically?
     - can i visit the archive in person?
     - can i physically see the arhives ?
+    - can i visit the archives?
 - intent: faq/addNewRecord
   examples: |
     - Can I add a new record in archive?
@@ -1108,3 +1110,44 @@ nlu:
     - how does the virtual record treasury manage to recover the lost records?
     - how does the virtual records trust re-store the lost archives?
     - what will be done to replicate the record treasury?
+- intent: faq/howManyDigitized
+  examples: |
+    - is everything digitized ?
+    - how many records were digitized?
+    - how many records are digitized?
+    - how many records you have digitized?
+    - have you digitized everything ?
+    - how many records have been digitized?
+    - how many records have been digitised?
+    - are all public archive records digitised?
+- intent: faq/generalRecords
+  examples: |
+    - where are my grandmothers birth records
+    - are there birth records ?
+    - do you have death records ?
+    - Can I find birth dates of Irish people from Record Treasury ?
+    - can I find birth and death records from treasury
+    - do you have marriage records ?
+    - marriage records ?
+    - do we have birth records on public archives?
+    - is there a way to find a death record in a digital archives?
+    - how do you find death records in archives?
+    - how do you find marriage records in archives?
+- intent: faq/whatLost
+  examples: |
+    - what is the inventory of loss ?
+    - can you list the lost records?
+    - what is an inventory of losses?
+    - do we know exactly what records were lost ?
+    - do we have the list of records which were lost ?
+    - how to we know what was lost in fire ?
+    - can you list the inventory of loss?
+    - how can you tell the exactly what records were lost ?
+- intent: faq/projectPartners
+  examples: |
+    - who are the core partners ?
+    - who is the core partner of the project?
+    - who are involved with this project?
+    - who is involved in the project?
+    - who has been involved in this project?
+    - who is involved in this project?
