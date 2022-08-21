@@ -1,0 +1,210 @@
+<html>
+
+<head>
+    <title>Expert User Dashboard</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/handsontable/dist/handsontable.full.min.css" />
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/handsontable/dist/handsontable.full.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./dist/Chatroom.css">
+    <link rel="stylesheet" type="text/css" href="./index.css">
+    <style>
+        .rate {
+
+            border-bottom-right-radius: 12px;
+            border-bottom-left-radius: 12px;
+
+        }
+
+        .rating {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: center
+        }
+
+        .rating>input {
+            display: none
+        }
+
+        .rating>label {
+            position: relative;
+            width: 1em;
+            font-size: 30px;
+            font-weight: 300;
+            color: #FFD600;
+            cursor: pointer
+        }
+
+        .rating>label::before {
+            content: "\2605";
+            position: absolute;
+            opacity: 0
+        }
+
+        .rating>label:hover:before,
+        .rating>label:hover~label:before {
+            opacity: 1 !important
+        }
+
+        .rating>input:checked~label:before {
+            opacity: 1
+        }
+
+        .rating:hover>input:checked~label:before {
+            opacity: 0.4
+        }
+
+
+        .buttons {
+            top: 36px;
+            position: relative;
+        }
+
+
+        .rating-submit {
+            border-radius: 15px;
+            color: #fff;
+            height: 49px;
+        }
+
+
+        .rating-submit:hover {
+
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-dark bg-dark">
+        <span class="navbar-brand mb-0 h1">Expert User Dashboard</span>
+    </nav>
+	
+	
+
+    <div class="container" id="connect_button">
+        <!-- Content here -->
+		<ul class="list-group list-group-flush">
+  <li class="list-group-item">You as a expert user will be able act as a mediator or a wizard between a user and a bot.</li>
+  <li class="list-group-item">You can click on <b>"Connect"</b> button below to connect with the end user conversation.</li>
+  <li class="list-group-item">Once you are connected you will see a simple table with three sections.In which you will be able to see the message from end user, original bot response and the approval button.</li>
+  <li class="list-group-item">The table contents are editable so that you can edit/change the original response from the bot if its not accurate.</li>
+  <li class="list-group-item">Only once approved the response will be sent to the end user.</li>
+</ul>
+        <button type="button" class="btn btn-primary" onclick="connect()"><i class="bi bi-chat"></i> Connect </button>
+        <p class="text-md-left" id="print"></p>
+    </div>
+
+    <div id="example_parent" style="width: 1150px !important; margin: 0 auto; visibility: hidden;">
+        <div id="example"></div>
+    </div>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <!-- <div class="modal-header"> -->
+                <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+                <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button> -->
+                <!-- </div> -->
+                <div class="modal-body">
+                    <div class="chat-container" style="margin: 0px auto;"></div>
+                </div>
+                <div class="modal-footer" style="justify-content: center;">
+                    <button type="button" class="btn btn-danger" style="width: 100%;" data-dismiss="modal"
+                        data-toggle="modal" data-target="#feedbackModal">Close
+                        Chat</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+<!-- <script type="text/javascript">
+    $(document).ready(function () {
+        $('#rateMe3').mdbRate();
+    });
+</script> -->
+<script type="text/javascript">
+    var exampleSocket = undefined;
+    function connect() {
+        console.log('Websocket')
+        exampleSocket = new WebSocket("ws://34.102.37.61:8000/wizard_ws");
+        console.log(event.data);
+        console.log('Connection established');
+        document.getElementById('connect_button').style.display = 'none';
+        document.getElementById('example_parent').style.visibility = 'visible';
+        exampleSocket.onmessage = function (event) {
+            console.log(event.data);
+            var { message, response } = JSON.parse(event.data);
+            var row = { message, response, approve: false }
+            console.log('Pushing data')
+            data.push(row)
+            hot.updateData(data)
+        }
+    }
+
+    var data = [];
+    const container = document.getElementById('example');
+    const hot = new Handsontable(container, {
+        data: data,
+        rowHeaders: false,
+        width: '100%',
+        height: 'auto',
+        colWidths: [300, 700, 150],
+        // cell: [
+        //     { col: 3, className: 'htMiddle htCenter' },
+        // ],
+        manualColumnResize: true,
+        colHeaders: ['User Message', 'Bot Response', 'Approve'],
+        licenseKey: 'non-commercial-and-evaluation',
+        columns: [
+            {
+                data: 'message'
+            },
+            {
+                data: 'response'
+            },
+            {
+                data: 'approve',
+                type: 'checkbox'
+            }
+        ]
+    });
+
+    hot.addHook('afterChange', function (changes, src) {
+        if (src == 'edit') {
+            changes.forEach(([row, prop, oldValue, newValue]) => {
+                if (prop == 'approve' && newValue == true) {
+                    tempdata = hot.getDataAtRow(row)
+                    console.log(exampleSocket);
+                    console.log(tempdata[1]);
+                    exampleSocket.send(tempdata[1]);
+                }
+            });
+        }
+    });
+</script>
+
+</html>

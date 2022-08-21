@@ -1,0 +1,226 @@
+<html>
+
+<head>
+    <title>Virtual Archive Assistant</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="./dist/Chatroom.css">
+    <link rel="stylesheet" type="text/css" href="./index.css">
+    <style>
+        .rate {
+
+            border-bottom-right-radius: 12px;
+            border-bottom-left-radius: 12px;
+
+        }
+
+        .rating {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: center
+        }
+
+        .rating>input {
+            display: none
+        }
+
+        .rating>label {
+            position: relative;
+            width: 1em;
+            font-size: 30px;
+            font-weight: 300;
+            color: #FFD600;
+            cursor: pointer
+        }
+
+        .rating>label::before {
+            content: "\2605";
+            position: absolute;
+            opacity: 0
+        }
+
+        .rating>label:hover:before,
+        .rating>label:hover~label:before {
+            opacity: 1 !important
+        }
+
+        .rating>input:checked~label:before {
+            opacity: 1
+        }
+
+        .rating:hover>input:checked~label:before {
+            opacity: 0.4
+        }
+
+
+        .buttons {
+            top: 36px;
+            position: relative;
+        }
+
+
+        .rating-submit {
+            border-radius: 15px;
+            color: #fff;
+            height: 49px;
+        }
+
+
+        .rating-submit:hover {
+
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-dark bg-dark">
+        <span class="navbar-brand mb-0 h1">Virtual Record Treasury Assistant</span>
+    </nav>
+	<div class="container" style="margin:10px auto">
+  <div class="row">
+    <div class="col-sm">
+     This is the experiment to test the Virtual Assistant designed to help you to answer your queries about <b>"Beyond 22"</b> a Virtual Record Treasury project, the history of Ireland's public record treasury building, the collection in it, and the fire incident of 1922 that destroyed the archive building.
+    </div>
+    <div class="col-sm">
+     You can connect with a bot by clicking on the <b>"Chat With Assistant"</b> Button at bottom of the screen. After finishing the chat you can click on the <b>"Close Chat"</b> button in red to exit. Upon exiting the system will ask you to provide feedback which will help us to evaluate the bot.
+    </div>
+    <div class="col-sm">
+     You can see a short video below to know a bit more about Ireland's Public record office and Project <b>"Beyond 22"</b>.<br> As the bot is in the development phase it may take some time to respond to your queries. Your patience is greatly appreciated.
+    </div>
+  </div>
+</div>
+
+    <div class="container" style="text-align: center;max-width: 520px">
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/uXQOluXftZU"
+                allowfullscreen></iframe>
+        </div>
+
+        <!-- Content here -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" style="margin:10px auto"><i
+                class="bi bi-chat"></i> Chat With Assistant</button>
+    </div>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <!-- <div class="modal-header"> -->
+                <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+                <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button> -->
+                <!-- </div> -->
+                <div class="modal-body">
+                    <div class="chat-container" style="margin: 0px auto;"></div>
+                </div>
+                <div class="modal-footer" style="justify-content: center;">
+                    <button type="button" class="btn btn-danger" style="width: 100%;" data-dismiss="modal"
+                        data-toggle="modal" data-target="#feedbackModal">Close
+                        Chat</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="feedbackModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <!-- <div class="modal-header"> -->
+                <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+                <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button> -->
+                <!-- </div> -->
+                <div class="modal-body">
+                    <!-- <div class="container">
+                        <span id="rateMe3" class="rating-faces"></span>
+                    </div> -->
+                    <!-- rating.js file -->
+                    <p> Please Provide Your Valuable Feedback.</p>
+                    <p style="text-align: center;"> Rate the quality of response from bot </p>
+                    <div class="rating">
+                        <input type="radio" name="rating" value="5" id="rating_5">
+                        <label for="rating_5">☆</label>
+                        <input type="radio" name="rating" value="4" id="rating_4">
+                        <label for="rating_4">☆</label>
+                        <input type="radio" name="rating" value="3" id="rating_3">
+                        <label for="rating_3">☆</label>
+                        <input type="radio" name="rating" value="2" id="rating_2">
+                        <label for="rating_2">☆</label>
+                        <input type="radio" name="rating" value="1" id="rating_1">
+                        <label for="rating_1">☆</label>
+                      </div>
+                      <p style="text-align: center;"> Rate Your Overall Chat Experience </p>
+                      <div class="rating">
+                        <input type="radio" name="rating2" value="5" id="5">
+                        <label for="5">☆</label>
+                        <input type="radio" name="rating2" value="4" id="4">
+                        <label for="4">☆</label>
+                        <input type="radio" name="rating2" value="3" id="3">
+                        <label for="3">☆</label>
+                        <input type="radio" name="rating2" value="2" id="2">
+                        <label for="2">☆</label>
+                        <input type="radio" name="rating2" value="1" id="1">
+                        <label for="1">☆</label>
+                      </div>
+                </div>
+                <div class="modal-footer" style="justify-content: center;">
+                    <button type="button" class="btn btn-primary" style="width: 100%;" onclick="submitFeedback()">Submit
+                        Feedback </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<!-- <script type="text/javascript">
+    $(document).ready(function () {
+        $('#rateMe3').mdbRate();
+    });
+</script> -->
+<script src="./dist/Chatroom.js"></script>
+<script type="text/javascript">
+    window.chatroom = new window.Chatroom({
+        title: "Chat with a bot",
+        container: document.querySelector(".chat-container"),
+        welcomeMessage: "Nice to Meet you. I am the assistant at Virtual Archives here to help you answer your questions about the virtual record treasury project, the history of the virtual record treasury building, the collection in it, the fire incident of 1922, and what was lost in it. please go ahead and ask if you have any specific questions related to this.",
+        host: "http://34.102.37.61:8000",
+        speechRecognition: "en-US"
+    });
+    window.chatroom.openChat();
+</script>
+<script type="text/javascript">
+    function submitFeedback() {
+        var id = window.sessionStorage.getItem('simple-chatroom-cid')
+        var rating1 = document.querySelector('input[name="rating"]:checked').value;
+        var rating2 = document.querySelector('input[name="rating2"]:checked').value;
+        console.log(id);
+        console.log(rating1);
+        var data = { user_id: id, rating1: rating1, rating2: rating2 }
+        fetch("http://34.102.37.61:8000/feedback", {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(data)
+        }).then(response => response.json()).then(window.alert('Success'))
+    }
+
+</script>
+
+</html>
